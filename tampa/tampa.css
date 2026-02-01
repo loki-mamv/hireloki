@@ -1,0 +1,115 @@
+/* ═══════════════════════════════════════════════════════════════════════════
+   HireLoki Tampa — Page-specific styles
+   
+   Base styles inherited from ../styles.css
+   This file handles Tampa-specific editorial sections only.
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   EDITORIAL SECTIONS — Reusable layout for Tampa narrative content
+   ───────────────────────────────────────────────────────────────────────────── */
+
+.t-section {
+  padding: var(--space-3xl) 0;
+}
+
+.t-section--alt {
+  background: var(--color-bg-alt);
+}
+
+.t-section--dark {
+  background: var(--color-bg-dark);
+  color: var(--color-text-inverse);
+}
+
+.t-section--dark .section-label {
+  color: var(--color-accent-light);
+}
+
+/* Editorial grid — label on left, content on right */
+.t-layout {
+  display: grid;
+  gap: var(--space-lg);
+}
+
+@media (min-width: 768px) {
+  .t-layout {
+    grid-template-columns: 200px 1fr;
+    gap: var(--space-xl);
+  }
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   EDITORIAL TYPOGRAPHY
+   ───────────────────────────────────────────────────────────────────────────── */
+
+.t-heading {
+  font-family: var(--font-serif);
+  font-size: clamp(1.5rem, 3.5vw, 2.25rem);
+  font-weight: 400;
+  line-height: 1.3;
+  margin-bottom: var(--space-xl);
+  max-width: var(--container-text);
+}
+
+.t-intro {
+  font-family: var(--font-serif);
+  font-size: clamp(1.25rem, 3vw, 1.75rem);
+  line-height: 1.4;
+  margin-bottom: var(--space-lg);
+  max-width: var(--container-text);
+}
+
+.t-text {
+  font-size: 0.9375rem;
+  line-height: 1.7;
+  color: var(--color-text-secondary);
+  max-width: var(--container-text);
+  margin-bottom: var(--space-md);
+}
+
+.t-text:last-child {
+  margin-bottom: 0;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   DARK SECTION — Text overrides
+   ───────────────────────────────────────────────────────────────────────────── */
+
+.t-section--dark .t-heading {
+  color: var(--color-text-inverse);
+}
+
+.t-section--dark .t-intro {
+  color: var(--color-text-inverse);
+}
+
+.t-section--dark .t-text {
+  color: rgba(250, 249, 246, 0.6);
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   CLOSING — Email line below CTA
+   ───────────────────────────────────────────────────────────────────────────── */
+
+.closing__email {
+  margin-top: var(--space-md);
+  font-size: 0.875rem;
+  color: var(--color-text-tertiary);
+  letter-spacing: 0.02em;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   FAQ — Link styling within answers
+   ───────────────────────────────────────────────────────────────────────────── */
+
+.faq__answer a {
+  color: var(--color-accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color var(--duration-fast) var(--ease-out);
+}
+
+.faq__answer a:hover {
+  color: var(--color-accent-hover);
+}
