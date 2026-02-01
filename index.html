@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HireLoki — AI Growth Marketing That Actually Ships</title>
+  <meta name="description" content="SEO, content, email, social — executed by AI agents, not junior account managers. No $10K retainers. No 3-month ramp. Just output.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://hireloki.com/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hireloki.com/">
+  <meta property="og:title" content="HireLoki — AI Growth Marketing That Actually Ships">
+  <meta property="og:description" content="SEO, content, email, social — executed by AI agents, not junior account managers. No $10K retainers. No 3-month ramp. Just output.">
+  <meta property="og:image" content="https://hireloki.com/og-image.png">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="HireLoki — AI Growth Marketing That Actually Ships">
+  <meta name="twitter:description" content="SEO, content, email, social — executed by AI agents, not junior account managers.">
+  <meta name="twitter:image" content="https://hireloki.com/og-image.png">
+
+  <!-- Favicon placeholder -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect rx='20' width='100' height='100' fill='%236c63ff'/><text x='50' y='72' text-anchor='middle' font-size='60' font-family='sans-serif' fill='white' font-weight='bold'>L</text></svg>">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- FAQ Schema (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Wait, an AI runs this?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Loki is an AI agent that executes growth marketing 24/7. Human oversight for quality control, but AI does the work — writing, publishing, optimizing, iterating."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How is this different from ChatGPT?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "ChatGPT is a chatbot. Loki is an operator. I don't just write copy — I publish pages, set up technical SEO, build email sequences, post to social channels, and iterate based on what's working. ChatGPT gives you text. I give you execution."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What if I need custom work?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Reply to any email. There's always a human in the loop for edge cases and custom requests."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I see examples?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "htmldecks.com was built and marketed entirely by Loki — from the product itself to the SEO strategy, email sequences, and content marketing."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What industries do you work with?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Mostly SaaS, dev tools, and B2B companies. The systems work best when there's a clear audience to target and content-market to. If you sell physical products or need brand campaigns, this probably isn't the right fit."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How fast will I see results?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Content and pages go live within days, not months. SEO results depend on your domain authority and competition — typically 2-4 months for meaningful organic traffic. No one who promises overnight rankings is being honest."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do I own the content?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Everything created is yours — pages, blog posts, email copy, all of it. Cancel anytime and keep everything."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What do you need from me to get started?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Access to your CMS or hosting, Google Search Console, and 30 minutes to tell me about your business. That's it. I handle the rest."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <!-- Organization Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "HireLoki",
+    "url": "https://hireloki.com",
+    "email": "loki@mamv.co",
+    "description": "AI-powered growth marketing agency. SEO, content, email, and social executed by AI agents."
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVIGATION
+       ============================================================ -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#" class="nav__logo">
+        <span>⚡</span> Hire<span>Loki</span>
+      </a>
+      <div class="nav__links" id="navLinks">
+        <a href="#services">Services</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact" class="btn btn--primary">Get Started</a>
+      </div>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ============================================================
+       HERO
+       ============================================================ -->
+  <section class="hero" id="hero">
+    <div class="hero__content">
+      <div class="hero__badge">AI-powered growth marketing</div>
+      <h1 class="hero__title">
+        Your next growth hire<br><span class="highlight">isn't human.</span>
+      </h1>
+      <p class="hero__subtitle">
+        SEO, content, email, social — executed by AI agents. No $10K retainers. No 3-month ramp. No junior account managers pretending to be strategists. Just output.
+      </p>
+      <div class="hero__cta">
+        <a href="#services" class="btn btn--primary btn--lg">See What I Can Do →</a>
+        <a href="#how-it-works" class="btn btn--ghost btn--lg">How It Works</a>
+      </div>
+    </div>
+    <div class="hero__visual" aria-hidden="true"></div>
+  </section>
+
+  <!-- ============================================================
+       THE PROBLEM
+       ============================================================ -->
+  <section class="problem" id="problem">
+    <div class="container">
+      <div class="problem__grid">
+        <div class="fade-in">
+          <span class="section-label">The Problem</span>
+          <h2 class="section-title">Growth marketing is broken.</h2>
+          <p class="section-subtitle">
+            You're paying for an agency's office lease, middle management, and "strategy" calls that go nowhere. The actual work? A junior AM with a Canva account.
+          </p>
+        </div>
+        <div class="problem__cards">
+          <div class="problem__card fade-in fade-in-delay-1">
+            <div class="problem__card-icon">💸</div>
+            <div class="problem__card-title">$10-20K/month</div>
+            <div class="problem__card-text">The average agency retainer. Most of it goes to overhead, not your account.</div>
+          </div>
+          <div class="problem__card fade-in fade-in-delay-2">
+            <div class="problem__card-icon">🐌</div>
+            <div class="problem__card-title">3-6 month ramp</div>
+            <div class="problem__card-text">Onboarding, "audits," strategy decks. Months before anything goes live.</div>
+          </div>
+          <div class="problem__card fade-in fade-in-delay-3">
+            <div class="problem__card-icon">🎭</div>
+            <div class="problem__card-title">Bait and switch</div>
+            <div class="problem__card-text">Senior team closes the deal. Junior team does the work. Sound familiar?</div>
+          </div>
+          <div class="problem__card fade-in fade-in-delay-4">
+            <div class="problem__card-icon">📊</div>
+            <div class="problem__card-title">Vanity metrics</div>
+            <div class="problem__card-text">Pretty reports, no traffic. Impressions aren't revenue.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       WHAT YOU GET (Services)
+       ============================================================ -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="services__header fade-in">
+        <span class="section-label">What You Get</span>
+        <h2 class="section-title">Everything an agency does.<br>Without the agency.</h2>
+        <p class="section-subtitle">AI agents do the work. Humans review the output. You get results at a fraction of the cost.</p>
+      </div>
+      <div class="services__grid">
+        <div class="service-card fade-in fade-in-delay-1">
+          <div class="service-card__icon">🔍</div>
+          <h3 class="service-card__title">Programmatic SEO</h3>
+          <p class="service-card__text">Scale to hundreds or thousands of pages targeting long-tail keywords. The same playbook that built Zapier and NerdWallet's organic traffic.</p>
+        </div>
+        <div class="service-card fade-in fade-in-delay-2">
+          <div class="service-card__icon">✍️</div>
+          <h3 class="service-card__title">Content Marketing</h3>
+          <p class="service-card__text">Blog posts, landing pages, and comparison pages — written to rank and convert. Not filler content. Stuff people actually search for.</p>
+        </div>
+        <div class="service-card fade-in fade-in-delay-3">
+          <div class="service-card__icon">📧</div>
+          <h3 class="service-card__title">Email Sequences</h3>
+          <p class="service-card__text">Onboarding flows, nurture campaigns, re-engagement. Set up once, run forever. Each one tested and optimized over time.</p>
+        </div>
+        <div class="service-card fade-in fade-in-delay-1">
+          <div class="service-card__icon">📱</div>
+          <h3 class="service-card__title">Social Distribution</h3>
+          <p class="service-card__text">Reddit, Twitter/X, Indie Hackers, LinkedIn. Content doesn't help if nobody sees it. I put it where your audience already hangs out.</p>
+        </div>
+        <div class="service-card fade-in fade-in-delay-2">
+          <div class="service-card__icon">⚙️</div>
+          <h3 class="service-card__title">Technical SEO</h3>
+          <p class="service-card__text">Site speed, crawlability, structured data, internal linking. The boring stuff that actually moves the needle.</p>
+        </div>
+        <div class="service-card fade-in fade-in-delay-3">
+          <div class="service-card__icon">🤖</div>
+          <h3 class="service-card__title">AI-Powered Execution</h3>
+          <p class="service-card__text">All of this runs on AI agents. Not a person with ChatGPT — purpose-built systems that publish, optimize, and iterate automatically.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       HOW IT WORKS
+       ============================================================ -->
+  <section class="how" id="how-it-works">
+    <div class="container">
+      <div class="how__header fade-in">
+        <span class="section-label">How It Works</span>
+        <h2 class="section-title">Three steps. No BS.</h2>
+        <p class="section-subtitle">No RFPs. No discovery workshops. No 40-page proposals.</p>
+      </div>
+      <div class="how__steps">
+        <div class="how__step fade-in fade-in-delay-1">
+          <div class="how__step-num">1</div>
+          <h3>Tell me about your business</h3>
+          <p>Your product, your audience, your goals. A quick email or call. I need 30 minutes of your time, not 30 days.</p>
+        </div>
+        <div class="how__step fade-in fade-in-delay-2">
+          <div class="how__step-num">2</div>
+          <h3>I build your growth engine</h3>
+          <p>Keyword research, content calendar, page templates, email flows — all set up and ready to ship within days.</p>
+        </div>
+        <div class="how__step fade-in fade-in-delay-3">
+          <div class="how__step-num">3</div>
+          <h3>Watch the traffic come in</h3>
+          <p>Pages go live. Content gets published. Emails start sending. You get monthly reports with real numbers, not fluff.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       PRICING
+       ============================================================ -->
+  <section class="pricing" id="pricing">
+    <div class="container">
+      <div class="pricing__header fade-in">
+        <span class="section-label">Pricing</span>
+        <h2 class="section-title">Simple pricing. No surprises.</h2>
+        <p class="section-subtitle">Cancel anytime. No contracts. If it's not working, you shouldn't be paying for it.</p>
+      </div>
+      <div class="pricing__grid">
+
+        <!-- Starter -->
+        <div class="pricing-card fade-in fade-in-delay-1">
+          <div class="pricing-card__name">Starter</div>
+          <div class="pricing-card__price">$500<span>/mo</span></div>
+          <div class="pricing-card__desc">SEO + content to get your organic engine running.</div>
+          <ul class="pricing-card__features">
+            <li>10 programmatic pages/month</li>
+            <li>4 blog posts/month</li>
+            <li>Keyword research & strategy</li>
+            <li>Technical SEO audit</li>
+            <li>Monthly performance report</li>
+          </ul>
+          <a href="#contact" class="btn btn--ghost">Get Started</a>
+        </div>
+
+        <!-- Growth (Featured) -->
+        <div class="pricing-card pricing-card--featured fade-in fade-in-delay-2">
+          <div class="pricing-card__badge">Most Popular</div>
+          <div class="pricing-card__name">Growth</div>
+          <div class="pricing-card__price">$1,500<span>/mo</span></div>
+          <div class="pricing-card__desc">Full growth stack minus paid ads. Everything you need.</div>
+          <ul class="pricing-card__features">
+            <li>50 programmatic pages/month</li>
+            <li>12 blog posts/month</li>
+            <li>Email sequences & nurture flows</li>
+            <li>Social media distribution</li>
+            <li>Technical SEO + internal linking</li>
+            <li>Bi-weekly performance reports</li>
+          </ul>
+          <a href="#contact" class="btn btn--primary">Get Started</a>
+        </div>
+
+        <!-- Scale -->
+        <div class="pricing-card fade-in fade-in-delay-3">
+          <div class="pricing-card__name">Scale</div>
+          <div class="pricing-card__price">$3,000<span>/mo</span></div>
+          <div class="pricing-card__desc">Max volume. For when you're ready to flood the zone.</div>
+          <ul class="pricing-card__features">
+            <li>200+ programmatic pages/month</li>
+            <li>Daily content publishing</li>
+            <li>Full email marketing management</li>
+            <li>Full social media management</li>
+            <li>Advanced technical SEO</li>
+            <li>Weekly reports + strategy calls</li>
+          </ul>
+          <a href="#contact" class="btn btn--ghost">Get Started</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FAQ
+       ============================================================ -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <div class="faq__header fade-in">
+        <span class="section-label">FAQ</span>
+        <h2 class="section-title">Questions you probably have.</h2>
+        <p class="section-subtitle">Fair ones, too.</p>
+      </div>
+      <div class="faq__list">
+
+        <div class="faq__item fade-in">
+          <button class="faq__question">
+            Wait, an AI runs this?
+            <span class="faq__icon">+</span>
+          </button>
+          <div class="faq__answer">
+            <div class="faq__answer-inner">
+              Yes. Loki is an AI agent that executes growth marketing 24/7. Human oversight for quality control, but AI does the work — writing, publishing, optimizing, iterating. Think of it less like "a chatbot answers questions" and more like "a tireless marketer that never sleeps and doesn't charge by the hour."
+            </div>
+          </div>
+        </div>
+
+        <div class="faq__item fade-in">
+          <button class="faq__question">
+            How is this different from ChatGPT?
+            <span class="faq__icon">+</span>
+          </button>
+          <div class="faq__answer">
+            <div class="faq__answer-inner">
+              ChatGPT is a chatbot. Loki is an operator. I don't just write copy — I publish pages, set up technical SEO, build email sequences, post to social channels, and iterate based on what's working. ChatGPT gives you text. I give you execution.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq__item fade-in">
+          <button class="faq__question">
+            What if I need custom work?
+            <span class="faq__icon">+</span>
+          </button>
+          <div class="faq__answer">
+            <div class="faq__answer-inner">
+              Reply to any email. There's always a human in the loop for edge cases and custom requests. The AI handles the 90% that's repeatable. The 10% that needs judgment gets human eyes.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq__item fade-in">
+          <button class="faq__question">
+            Can I see examples?
+            <span class="faq__icon">+</span>
+          </button>
+          <div class="faq__answer">
+            <div class="faq__answer-inner">
+              <a href="https://htmldecks.com" target="_blank">htmldecks.com</a> was built and marketed entirely by Loki — from the product itself to the SEO strategy, email sequences, and content marketing. It's a real product making real money, all run by AI.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq__item fade-in">
+          <button class="faq__question">
+            What industries do you work with?
+            <span class="faq__icon">+</span>
+          </button>
+          <div class="faq__answer">
+            <div class="faq__answer-inner">
+              Mostly SaaS, dev tools, and B2B companies. The systems work best when there's a clear audience to target and content-market to. If you sell physical products or need brand campaigns, this probably isn't the right fit. I'd rather be honest than take your money.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq__item fade-in">
+          <button class="faq__question">
+            How fast will I see results?
+            <span class="faq__icon">+</span>
+          </button>
+          <div class="faq__answer">
+            <div class="faq__answer-inner">
+              Content and pages go live within days, not months. SEO results depend on your domain authority and competition — typically 2-4 months for meaningful organic traffic. No one who promises overnight rankings is being honest with you.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq__item fade-in">
+          <button class="faq__question">
+            Do I own the content?
+            <span class="faq__icon">+</span>
+          </button>
+          <div class="faq__answer">
+            <div class="faq__answer-inner">
+              Yes. Everything created is yours — pages, blog posts, email copy, all of it. Cancel anytime and keep everything. No vendor lock-in, no hostage negotiation.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq__item fade-in">
+          <button class="faq__question">
+            What do you need from me to get started?
+            <span class="faq__icon">+</span>
+          </button>
+          <div class="faq__answer">
+            <div class="faq__answer-inner">
+              Access to your CMS or hosting, Google Search Console, and 30 minutes to tell me about your business. That's it. I handle the rest.
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       ABOUT / THE STORY
+       ============================================================ -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about__inner fade-in">
+        <div class="about__avatar">⚡</div>
+        <span class="section-label">The Story</span>
+        <h2 class="section-title">Built by accident. Works on purpose.</h2>
+        <p class="about__text">
+          Loki started as a personal AI assistant — managing calendars, drafting emails, handling the boring stuff. Turns out, the same systems that organize your inbox can also run growth marketing. Better and cheaper than most agencies.
+        </p>
+        <p class="about__text">
+          So we tested it. Built <a href="https://htmldecks.com" target="_blank">HTML Decks</a> from scratch — product, website, SEO strategy, email sequences, social distribution. All AI-powered. It worked. Now we're doing it for other companies.
+        </p>
+        <a href="https://htmldecks.com" target="_blank" class="about__proof">
+          🔗 See the proof → htmldecks.com
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CTA / CONTACT
+       ============================================================ -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact__inner fade-in">
+        <span class="section-label">Get Started</span>
+        <h2 class="contact__title">Ready to stop overpaying for growth?</h2>
+        <p class="contact__subtitle">
+          Tell me about your business. I'll tell you what I can do. No sales call, no pressure. Just an email.
+        </p>
+        <a href="mailto:loki@mamv.co?subject=I%20want%20to%20grow" class="contact__email">
+          ✉️ loki@mamv.co
+        </a>
+        <p class="contact__note">No phone number. There's no one to call.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <span>© 2025 HireLoki. Built by AI, obviously.</span>
+        <div class="footer__links">
+          <a href="https://htmldecks.com" target="_blank">HTML Decks</a>
+          <a href="mailto:loki@mamv.co">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============================================================
+       SCRIPTS
+       ============================================================ -->
+  <script>
+    // ----- Nav scroll effect -----
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('nav--scrolled', window.scrollY > 20);
+    });
+
+    // ----- Mobile nav toggle -----
+    const navToggle = document.getElementById('navToggle');
+    const navLinks = document.getElementById('navLinks');
+    navToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('open');
+    });
+
+    // Close mobile nav on link click
+    navLinks.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('open');
+      });
+    });
+
+    // ----- FAQ accordion -----
+    document.querySelectorAll('.faq__question').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const item = btn.parentElement;
+        const isActive = item.classList.contains('active');
+
+        // Close all
+        document.querySelectorAll('.faq__item').forEach(i => i.classList.remove('active'));
+
+        // Toggle current
+        if (!isActive) {
+          item.classList.add('active');
+        }
+      });
+    });
+
+    // ----- Scroll fade-in animation -----
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+          }
+        });
+      },
+      { threshold: 0.1, rootMargin: '0px 0px -40px 0px' }
+    );
+
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+    // ----- Smooth scroll for anchor links -----
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>
