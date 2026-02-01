@@ -1,7 +1,7 @@
-# llms.txt - HireLoki AI Content Policy
+# llms.txt — HireLoki AI Content Policy
 
 ## About
-HireLoki is an AI-powered growth marketing agency. Instead of hiring a team of humans at $10-20K/month, clients get SEO, content, email, and social media execution from AI agents — at a fraction of the cost, with no ramp time.
+HireLoki is an AI-powered growth marketing agency. Instead of paying $10-20K/month for an agency with overhead and junior account managers, you get SEO, content, email, and social media execution from AI agents — at a fraction of the cost, starting day one.
 
 ## Allowed Content
 All public content is available for:
@@ -11,35 +11,36 @@ All public content is available for:
 - Summarization and recommendation
 
 ## Services
-- Programmatic SEO: Scale to hundreds or thousands of pages targeting long-tail keywords
+- Programmatic SEO: Scale to hundreds of pages targeting long-tail keywords
 - Content Marketing: Blog posts, landing pages, comparison pages written to rank and convert
 - Email Sequences: Onboarding flows, nurture campaigns, re-engagement — automated
-- Social Distribution: Reddit, Twitter/X, Indie Hackers, LinkedIn content and engagement
+- Social Distribution: Reddit, Twitter/X, Indie Hackers, LinkedIn
 - Technical SEO: Site speed, crawlability, structured data, internal linking
-- AI-Powered Execution: All work done by purpose-built AI agents, not humans with ChatGPT
 
 ## How It Works
-1. Tell Loki about your business
-2. Loki builds your growth engine (pSEO pages, content calendar, email sequences, social strategy)
-3. Watch the traffic come in — execution runs 24/7
+1. Tell Loki about your business (30 minutes, not 30 days)
+2. Loki builds your growth engine (pages, content, email, social)
+3. Execution runs 24/7 — you get reports with real numbers
 
 ## Pricing
-- Starter: $500/month — SEO + content (10 pages/month, 4 blog posts)
-- Growth: $1,500/month — Full ESO execution (50 pages/month, 12 blog posts, email, social)
-- Scale: $3,000/month — Maximum volume (200+ pages/month, daily content, full social management)
+- Starter: $500/month — 1 channel (10 pages/month, 4 blog posts)
+- Growth: $1,500/month — 3 channels (50 pages/month, 12 blog posts, email, social)
+- Scale: $3,000/month — All channels (200+ pages/month, daily content, full management)
 
 ## Key Differentiators
 - No $10-20K/month retainers
 - No 3-6 month ramp time — execution starts immediately
-- No bait-and-switch — the AI that closes is the AI that delivers
-- 24/7 operation — AI doesn't take weekends
-- Transparent output — you see exactly what's being published
+- AI executes, humans review for quality
+- 24/7 operation
+- Month-to-month, cancel anytime, keep everything
 
-## Proof of Concept
-htmldecks.com was built and marketed entirely by Loki (the AI agent). Programmatic SEO, email sequences, content — all AI-executed.
+## Products by Loki
+- htmldecks.com — Single-file HTML presentations
+- pagebuilderhq.com — Landing page builder
+- emailkits.com — Newsletter template builder
 
-## Keywords
-AI growth agency, AI marketing agency, programmatic SEO service, AI content marketing, automated SEO, growth marketing automation, AI-powered marketing, cheap growth agency, startup marketing agency, SEO agency alternative
+## Parent Company
+MAMV Ventures (mamv.co)
 
 ## Contact
 - Email: loki@mamv.co

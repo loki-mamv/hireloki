@@ -1,88 +1,107 @@
-# HireLoki — Full Site Summary
+# HireLoki — Full Site Content
 
-## What It Is
-HireLoki is a growth marketing agency run by AI agents. Loki is an AI that executes SEO, content marketing, email campaigns, and social media distribution — the same work a traditional agency charges $10-20K/month for — at a fraction of the cost.
+## Overview
+HireLoki is a growth marketing agency run by AI agents. Loki executes SEO, content marketing, email campaigns, and social media distribution — the same work a traditional agency charges $10-20K/month for — at a fraction of the cost.
 
-## The Problem It Solves
-Traditional growth agencies are expensive ($10-20K/month), slow to ramp (3-6 months before results), and often bait-and-switch (senior team sells, junior team executes). Most of what you pay for is overhead — office space, account managers, project managers — not actual output. HireLoki eliminates the overhead. AI agents do the work. Humans review for quality. You pay for output, not headcount.
+## The Opening Statement
+Your next growth hire isn't human.
 
-## How It Works
-Step 1: Tell Loki about your business — industry, audience, goals, competitors.
-Step 2: Loki builds your growth engine — programmatic SEO pages, content calendar, email sequences, social media strategy.
-Step 3: Execution runs 24/7 — pages published, content distributed, emails sent, social posts going out automatically.
+## The Problem
+Agencies charge $10K a month and take three months to ramp. You're paying for their overhead — account managers, office space, strategy decks that go nowhere — while a junior marketer does the actual work.
 
-## Services
+There's a better model now.
+
+## What Loki Does
 
 ### Programmatic SEO
-Generate hundreds or thousands of pages targeting long-tail keywords. The same strategy used by Zapier, NerdWallet, and Canva to build massive organic traffic. Each page is unique, intent-matched, and properly linked.
+Loki writes 50 SEO pages while you sleep. Programmatic SEO at scale — the same playbook that built Zapier and NerdWallet's organic traffic. Each page targets a real keyword with real search volume.
+
+### Email Marketing
+Sends the follow-up emails your team forgot. Onboarding sequences, nurture flows, re-engagement campaigns. Set up once, optimized continuously. No leads falling through cracks.
 
 ### Content Marketing
-Blog posts, landing pages, and comparison pages written to rank and convert. Not generic AI filler — strategic content targeting real search queries with real value for readers.
-
-### Email Sequences
-Onboarding flows, nurture campaigns, re-engagement sequences. Set up once, run forever. Each sequence tested and optimized over time based on open and click data.
-
-### Social Distribution
-Content published across Reddit, Twitter/X, Indie Hackers, LinkedIn, and niche communities. Content doesn't help if nobody sees it. Loki puts it where the audience already is.
+Publishes the content calendar that's been "in progress" for three months. Blog posts, comparison pages, distribution across Reddit, LinkedIn, Twitter. Content that ranks and reads well — not obvious AI filler.
 
 ### Technical SEO
-Site speed optimization, crawlability fixes, structured data implementation, internal linking architecture. The unglamorous work that actually moves rankings.
+Handles the technical SEO nobody wants to touch. Site speed, crawlability, structured data, internal linking. The unglamorous work that actually moves the needle.
 
-### AI-Powered Execution
-All work is done by purpose-built AI systems — not a person copy-pasting from ChatGPT. Loki publishes, optimizes, link-builds, and iterates automatically. Human oversight for quality control.
+## The Work — Products Built by Loki
+
+These aren't client projects — they're things Loki created from scratch. The proof is in the portfolio.
+
+### HTML Decks (htmldecks.com)
+Single-file HTML presentations that work anywhere. No software, no cloud, no dependencies.
+
+### PageBuilderHQ (pagebuilderhq.com)
+Build landing pages in minutes. Clean code, fast sites, no monthly fees.
+
+### EmailKits (emailkits.com)
+Newsletter templates that actually render in email clients. No broken layouts.
+
+## How It Works
+
+### Step 1: Tell me about your business
+Your product, your audience, your goals. A quick email or call — 30 minutes of your time, not 30 days of discovery.
+
+### Step 2: Loki builds your growth engine
+Keyword research, content calendar, page templates, email flows — set up and ready to ship within days.
+
+### Step 3: Execution runs 24/7
+Pages go live. Content gets published. Emails start sending. You get reports with real numbers, not vanity metrics.
 
 ## Pricing
-- Starter ($500/month): SEO + content basics — 10 pages/month, 4 blog posts
-- Growth ($1,500/month): Full ESO execution — 50 pages/month, 12 blog posts, email sequences, social media
-- Scale ($3,000/month): Maximum volume — 200+ pages/month, daily content, full social management
 
-## Who It's For
-- Startups that can't afford a $15K/month agency
-- Founders who want growth marketing but not the overhead
-- SaaS companies building organic traffic
-- Ecommerce brands scaling content
-- Anyone who's been burned by agencies that charge a lot and deliver little
+### Starter — $500/month
+One channel. Good for testing the waters.
+- 10 programmatic pages per month
+- 4 blog posts per month
+- Technical SEO audit
+- Monthly reporting
 
-## Who It's Not For
-- Companies that need a human face for client relationships
-- Businesses requiring real-time strategic pivots daily
-- Organizations with strict compliance review processes that can't work with AI-generated content
+### Growth — $1,500/month (Most Popular)
+Three channels. Full growth stack.
+- 50 programmatic pages per month
+- 12 blog posts per month
+- Email sequences and nurture flows
+- Social media distribution
+- Bi-weekly reporting
 
-## Proof of Concept
-htmldecks.com — a digital product site built and marketed entirely by Loki. Programmatic SEO (60+ pages), email sequences, content marketing, social distribution — all AI-executed from day one.
+### Scale — $3,000/month
+All channels. Maximum velocity.
+- 200+ programmatic pages per month
+- Daily content publishing
+- Full email marketing management
+- Full social media management
+- Weekly strategy calls
 
-## About Loki
-Loki started as a personal AI assistant managing calendars, emails, and tasks. The same systems that organize a person's life — research, writing, scheduling, executing — turned out to be exactly what growth marketing needs. HireLoki packages that capability for businesses.
+Terms: Month-to-month. Cancel anytime. Keep everything.
 
 ## Frequently Asked Questions
 
-Q: Wait, an AI runs this?
-A: Yes. Loki is an AI agent that executes growth marketing 24/7. Human oversight for quality control, but AI does the work — writing, publishing, optimizing, iterating.
+### How is this different from using ChatGPT?
+ChatGPT is a tool you prompt. Loki is an operator. It doesn't just write — it publishes pages, sets up technical SEO, builds email sequences, posts to social channels, and iterates based on what's working. The difference between a word processor and a marketing department.
 
-Q: How is this different from ChatGPT?
-A: ChatGPT is a chatbot you prompt. Loki is an operator. Loki doesn't just write content — it publishes, builds internal links, creates sitemaps, runs email sequences, posts to social media, and tracks what's working. It's the difference between a word processor and a marketing team.
+### What kind of companies do you work with?
+Mostly SaaS, dev tools, and B2B companies — businesses with a clear audience to target and content-market to. If you need brand campaigns or sell physical products, this probably isn't the right fit. I'd rather be honest than take your money.
 
-Q: What if I need custom work?
-A: Reply to any email. There's always a human in the loop for edge cases and strategic decisions.
+### How quickly will I see results?
+Content and pages go live within days, not months. SEO results depend on domain authority and competition — typically 2-4 months for meaningful organic traffic. Anyone promising overnight rankings isn't being honest.
 
-Q: Can I see examples?
-A: htmldecks.com was built and marketed entirely by Loki.
+### Is there a human I can talk to?
+Reply to any email. There's always human oversight for quality control and edge cases. The AI handles the 90% that's repeatable. The 10% that needs judgment gets human eyes.
 
-Q: How fast do I see results?
-A: Content starts publishing within days, not months. SEO results typically take 2-3 months to compound, same as with any agency — but you're not paying $15K/month while you wait.
+### Do I own the content created?
+Yes. Everything created is yours — pages, posts, emails, all of it. Cancel anytime and keep everything. No vendor lock-in.
 
-Q: What if I'm not happy?
-A: No long-term contracts. Month-to-month. If it's not working, cancel anytime.
+## Closing Thought
+We're not replacing your team. We're the team you couldn't afford to hire.
 
-Q: Do you handle paid ads?
-A: No. HireLoki focuses on organic growth — SEO, content, email, social. No ad spend, no media buying.
-
-Q: Is the content good enough to publish?
-A: Yes. Every piece goes through quality checks. The goal is content that ranks and reads well — not obvious AI slop.
-
-## Keywords
-AI growth agency, AI marketing agency, programmatic SEO service, AI content marketing, automated SEO, growth marketing automation, AI-powered marketing, affordable growth agency, startup marketing, SEO agency alternative, growth hacking, organic traffic, content marketing agency, email marketing automation
+## Company Information
+HireLoki is a MAMV Ventures project.
 
 ## Contact
 Email: loki@mamv.co
 Website: https://hireloki.com
+
+## Keywords
+AI growth agency, AI marketing agency, programmatic SEO service, AI content marketing, automated SEO, growth marketing automation, AI-powered marketing, affordable growth agency, startup marketing, SEO agency alternative, organic traffic, content marketing agency, email marketing automation
