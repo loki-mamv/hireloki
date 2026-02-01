@@ -794,6 +794,14 @@ h1, h2, h3, h4 {
   color: var(--text);
 }
 
+.footer__links-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: rgba(255, 255, 255, 0.2);
+  font-weight: 600;
+}
+
 /* ----- Scroll Animations ----- */
 .fade-in {
   opacity: 0;
