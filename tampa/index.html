@@ -15,7 +15,6 @@
   <meta name="description" content="AI-powered growth marketing for Tampa Bay businesses. Local SEO, Google Business optimization, content, email, and social — from your neighbors in Seminole Heights.">
   <meta name="robots" content="index, follow">
 
-  <!-- AI Content Policy -->
   <meta name="ai-content" content="commercial, educational">
   <meta name="ai-topic" content="local SEO Tampa, growth marketing Tampa Bay, AI marketing agency, Google Business Profile optimization">
   <meta name="ai-audience" content="Tampa Bay small businesses, local restaurants, med spas, law firms, contractors">
@@ -53,25 +52,13 @@
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
     "name": "HireLoki — Tampa",
-    "description": "AI-powered growth marketing agency serving Tampa Bay businesses. Local SEO, Google Business Profile optimization, content marketing, email, and social media.",
+    "description": "AI-powered growth marketing agency serving Tampa Bay businesses.",
     "url": "https://hireloki.com/tampa/",
     "email": "loki@mamv.co",
     "areaServed": [
-      {
-        "@type": "City",
-        "name": "Tampa",
-        "sameAs": "https://en.wikipedia.org/wiki/Tampa,_Florida"
-      },
-      {
-        "@type": "City",
-        "name": "St. Petersburg",
-        "sameAs": "https://en.wikipedia.org/wiki/St._Petersburg,_Florida"
-      },
-      {
-        "@type": "City",
-        "name": "Clearwater",
-        "sameAs": "https://en.wikipedia.org/wiki/Clearwater,_Florida"
-      }
+      { "@type": "City", "name": "Tampa" },
+      { "@type": "City", "name": "St. Petersburg" },
+      { "@type": "City", "name": "Clearwater" }
     ],
     "address": {
       "@type": "PostalAddress",
@@ -80,25 +67,9 @@
       "postalCode": "33603",
       "addressCountry": "US"
     },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": "27.9945",
-      "longitude": "-82.4528"
-    },
+    "geo": { "@type": "GeoCoordinates", "latitude": "27.9945", "longitude": "-82.4528" },
     "priceRange": "$500-$3000/month",
-    "serviceType": [
-      "Local SEO",
-      "Growth Marketing",
-      "Content Marketing",
-      "Email Marketing",
-      "Social Media Marketing",
-      "Google Business Profile Optimization"
-    ],
-    "parentOrganization": {
-      "@type": "Organization",
-      "name": "MAMV Ventures",
-      "url": "https://mamv.co"
-    }
+    "serviceType": ["Local SEO", "Growth Marketing", "Content Marketing", "Email Marketing", "Social Media Marketing", "Google Business Profile Optimization"]
   }
   </script>
 
@@ -111,42 +82,22 @@
       {
         "@type": "Question",
         "name": "Do you work with businesses outside Tampa?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Our local services are focused on the Tampa Bay area — Tampa, St. Petersburg, Clearwater, and surrounding communities. For businesses outside Tampa Bay, check out our main site at hireloki.com for broader growth marketing services."
-        }
+        "acceptedAnswer": { "@type": "Answer", "text": "Our local services are focused on the Tampa Bay area. For businesses outside Tampa Bay, check out hireloki.com for broader growth marketing services." }
       },
       {
         "@type": "Question",
         "name": "Can we meet in person?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Absolutely. Mike is based in Seminole Heights, Tampa. Happy to grab coffee and walk through your marketing strategy in person. Just email loki@mamv.co to set something up."
-        }
+        "acceptedAnswer": { "@type": "Answer", "text": "Absolutely. Mike is based in Seminole Heights, Tampa. Happy to grab coffee and walk through your marketing strategy in person." }
       },
       {
         "@type": "Question",
         "name": "How is this different from a traditional Tampa marketing agency?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Traditional agencies charge $5-10K per month and assign a junior account manager to your account. We use AI to handle the volume — building pages, writing content, managing campaigns — at a fraction of the cost, with human review on everything before it goes live. You get agency-level output without agency-level overhead."
-        }
+        "acceptedAnswer": { "@type": "Answer", "text": "Traditional agencies charge $5-10K per month and assign a junior account manager. We use AI to handle the volume at a fraction of the cost, with human review on everything before it goes live." }
       },
       {
         "@type": "Question",
         "name": "How quickly will I see results from local SEO?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Google Business Profile improvements and local pages go live within days. You'll typically see movement in local search within 4-8 weeks, with meaningful traffic growth in 2-4 months. Anyone promising overnight results isn't being honest about how local SEO works."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What if I already have a website?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Great — we work with your existing site. We'll add local landing pages, optimize your technical SEO, and build content around your site's existing structure. No need to start over."
-        }
+        "acceptedAnswer": { "@type": "Answer", "text": "Google Business Profile improvements and local pages go live within days. You'll typically see movement in local search within 4-8 weeks, with meaningful traffic growth in 2-4 months." }
       }
     ]
   }
@@ -154,9 +105,6 @@
 </head>
 <body>
 
-  <!-- ════════════════════════════════════════════════════════════
-       HEADER
-       ════════════════════════════════════════════════════════════ -->
   <header class="header" id="header">
     <div class="header__inner">
       <a href="/" class="header__logo">
@@ -166,6 +114,7 @@
       </a>
       <nav class="header__nav" id="headerNav">
         <a href="#services">Services</a>
+        <a href="#neighborhoods">Tampa Bay</a>
         <a href="#pricing">Pricing</a>
         <a href="#about">About</a>
         <a href="mailto:loki@mamv.co?subject=Tampa%20%E2%80%94%20let's%20talk%20growth" class="header__nav-cta">Get in touch</a>
@@ -179,16 +128,19 @@
 
   <main>
 
-    <!-- ════════════════════════════════════════════════════════════
-         HERO
-         ════════════════════════════════════════════════════════════ -->
+    <!-- HERO -->
     <section class="hero">
       <div class="hero__content">
-        <h1 class="hero__title reveal">
+        <p class="hero__badge reveal">Based in Seminole Heights. Working while you sleep.</p>
+        <h1 class="hero__title reveal reveal--delay-1">
           <span class="hero__title-line">Tampa Bay's</span>
           <span class="hero__title-line hero__title-line--accent">AI growth agency.<span class="hero__cursor"></span></span>
         </h1>
-        <p class="hero__aside reveal reveal--delay-2">Based in Seminole Heights. Working while you sleep.</p>
+        <p class="hero__subtitle reveal reveal--delay-2">Local SEO, Google Business optimization, content, email, and social — powered by AI, reviewed by a human, built by your neighbors.</p>
+        <div class="hero__cta reveal reveal--delay-3">
+          <a href="#services" class="btn btn--primary">See what we do &rarr;</a>
+          <a href="#pricing" class="btn btn--secondary">View pricing</a>
+        </div>
       </div>
       <div class="hero__scroll reveal reveal--delay-2">
         <span>Scroll</span>
@@ -198,9 +150,7 @@
       </div>
     </section>
 
-    <!-- ════════════════════════════════════════════════════════════
-         TICKER
-         ════════════════════════════════════════════════════════════ -->
+    <!-- TICKER -->
     <div class="ticker">
       <div class="ticker__track">
         <span class="ticker__item">Local SEO</span>
@@ -238,146 +188,206 @@
       </div>
     </div>
 
-    <!-- ════════════════════════════════════════════════════════════
-         THE PROBLEM — Local Reality
-         ════════════════════════════════════════════════════════════ -->
+    <!-- THE PROBLEM -->
     <section class="shift">
       <div class="container">
         <div class="shift__content">
-          <p class="shift__text reveal">
-            <span class="shift__eyebrow">The reality</span>
-            Tampa's one of the fastest-growing metros in the country. New restaurants every month 
-            in Seminole Heights. Med spas multiplying on South Howard. Contractors fighting for the 
-            same homeowners in Carrollwood. But most of these businesses are invisible online — 
-            losing customers to whoever claimed their Google listing first, or to national chains 
-            with massive marketing budgets. The traditional fix? An agency at $5&ndash;10K a month, 
-            with an account manager who's never been south of I-4 writing your "authentic local content."
-          </p>
+          <h2 class="shift__title reveal">Tampa's growing fast. Most local businesses are invisible online.</h2>
           <p class="shift__text reveal reveal--delay-1">
+            <span class="shift__eyebrow">The reality</span>
+            New restaurants every month in Seminole Heights. Med spas multiplying on South Howard.
+            Contractors fighting for the same homeowners in Carrollwood. But most of these businesses
+            are losing customers to whoever claimed their Google listing first, or to national chains
+            with massive marketing budgets.
+          </p>
+          <p class="shift__text reveal reveal--delay-2">
+            The traditional fix? An agency at $5&ndash;10K a month, with an account manager who's never
+            been south of I-4 writing your "authentic local content."
+          </p>
+          <p class="shift__quote reveal reveal--delay-3">
             There's a better model now.
           </p>
         </div>
       </div>
     </section>
 
-    <!-- ════════════════════════════════════════════════════════════
-         WHAT WE DO — Narrative, Not Feature Cards
-         ════════════════════════════════════════════════════════════ -->
-    <section class="t-section" id="services">
+    <!-- WHAT WE DO — Numbered narrative (matches home page) -->
+    <section class="narrative" id="services">
       <div class="container">
-        <div class="t-layout">
-          <div class="t-label">
-            <span class="section-label reveal">What we do</span>
+        <header class="narrative__header">
+          <span class="section-label reveal">What we do</span>
+          <h2 class="narrative__title reveal reveal--delay-1">
+            Your customers are searching right now. Let's make sure they find you.
+          </h2>
+        </header>
+        
+        <div class="narrative__grid">
+          <div class="narrative__item reveal">
+            <span class="narrative__number">01</span>
+            <p class="narrative__lead">Google Business Profile, fully optimized.</p>
+            <p class="narrative__body">The single most important asset for local search. When someone types "plumber near me" or "best tacos Seminole Heights," Google decides who shows up. We make sure it's you. Full optimization, proper categories, photos, posts, the works.</p>
           </div>
-          <div class="t-content">
-            <h2 class="t-heading reveal">Your customers are searching right now. Let's make sure they find you.</h2>
-            
-            <p class="t-text reveal">
-              It starts with your Google Business Profile — the single most important asset for 
-              local search. When someone types "plumber near me" or "best tacos Seminole Heights," 
-              Google decides who shows up. We make sure it's you. Full optimization, proper 
-              categories, photos, posts, the works.
-            </p>
-            
-            <p class="t-text reveal">
-              Then we build local pages. Not five generic service pages — dozens of targeted pages 
-              that rank for real searches in real neighborhoods. "Emergency AC repair Carrollwood." 
-              "Family dentist near Hyde Park." "Wedding photographer St. Petersburg." Each one built 
-              around keywords people in Tampa Bay actually type into Google.
-            </p>
-            
-            <p class="t-text reveal">
-              Reviews are the other half of the equation. A business with 200 five-star reviews 
-              beats a business with 20 every time. We set up systems that make it easy for your 
-              happy customers to leave reviews, and help you respond to every one in a way that 
-              builds trust.
-            </p>
-            
-            <p class="t-text reveal">
-              Beyond search, we keep you visible everywhere that matters. Blog posts that establish 
-              you as the local authority. Email marketing that turns first-time visitors into regulars. 
-              Social media that doesn't feel like a corporate afterthought. All of it running 
-              consistently, month after month — because Loki doesn't take days off.
-            </p>
+          
+          <div class="narrative__item reveal reveal--delay-1">
+            <span class="narrative__number">02</span>
+            <p class="narrative__lead">Dozens of local pages that rank for real searches.</p>
+            <p class="narrative__body">Not five generic service pages. Targeted pages for real neighborhoods. "Emergency AC repair Carrollwood." "Family dentist near Hyde Park." "Wedding photographer St. Petersburg." Each one built around keywords people in Tampa Bay actually type into Google.</p>
+          </div>
+          
+          <div class="narrative__item reveal reveal--delay-2">
+            <span class="narrative__number">03</span>
+            <p class="narrative__lead">Reviews that build trust and crush competitors.</p>
+            <p class="narrative__body">A business with 200 five-star reviews beats a business with 20 every time. We set up systems that make it easy for your happy customers to leave reviews, and help you respond to every one.</p>
+          </div>
+          
+          <div class="narrative__item reveal reveal--delay-3">
+            <span class="narrative__number">04</span>
+            <p class="narrative__lead">Content, email, and social that keeps you visible.</p>
+            <p class="narrative__body">Blog posts that establish you as the local authority. Email marketing that turns first-time visitors into regulars. Social media that doesn't feel like a corporate afterthought. All running consistently, month after month — because Loki doesn't take days off.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- ════════════════════════════════════════════════════════════
-         NEIGHBORHOODS — Local Knowledge
-         ════════════════════════════════════════════════════════════ -->
-    <section class="t-section t-section--alt">
+    <!-- SERVICE CARDS with SVG icons -->
+    <section class="services" id="service-details">
       <div class="container">
-        <div class="t-layout">
-          <div class="t-label">
-            <span class="section-label reveal">Where we work</span>
+        <header class="services__header">
+          <span class="section-label reveal">The details</span>
+        </header>
+        <div class="services__grid">
+          <div class="service reveal">
+            <div class="service__icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div>
+            <h3 class="service__name">Local SEO</h3>
+            <p class="service__tagline"><em>Get found when it matters.</em></p>
+            <p class="service__desc">Google Business Profile optimization, local landing pages for every neighborhood and service you cover, citation building, and technical SEO — the full stack to dominate local search.</p>
+            <p class="service__what"><strong>WHAT YOU GET:</strong></p>
+            <ul class="service__list">
+              <li>Google Business Profile optimization</li>
+              <li>Neighborhood-specific landing pages</li>
+              <li>Local citation building</li>
+              <li>Technical SEO audit and fixes</li>
+              <li>Monthly ranking reports</li>
+            </ul>
           </div>
-          <div class="t-content">
-            <p class="t-intro reveal">
-              We're based in Seminole Heights — the kind of neighborhood where you know 
-              your barista's name and your barber's schedule. That local knowledge runs 
-              through everything we do.
-            </p>
-            
-            <p class="t-text reveal">
-              When we write a neighborhood guide for Hyde Park, we know the difference between 
-              the Village and the residential streets off Bayshore. When we optimize a listing 
-              in Ybor City, we understand the weekend crowd is different from the weekday lunch 
-              regulars. When we target Wesley Chapel, we know it's families who just moved down 
-              and are Googling everything for the first time.
-            </p>
-            
-            <p class="t-text reveal">
-              We work with businesses across the full Tampa Bay area. Downtown and Channelside. 
-              SoHo and South Tampa. Westshore and Water Street. Carrollwood, New Tampa, and up 
-              to Wesley Chapel. Across the bridge in St. Petersburg and Clearwater. Down to 
-              Brandon, Riverview, and Valrico.
-            </p>
-            
-            <p class="t-text reveal">
-              If your customers are in Tampa Bay, we know how to reach them.
-            </p>
+          
+          <div class="service reveal reveal--delay-1">
+            <div class="service__icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
+            <h3 class="service__name">Review Management</h3>
+            <p class="service__tagline"><em>Turn happy customers into your best marketing.</em></p>
+            <p class="service__desc">Automated review request flows, response templates, and reputation monitoring. More reviews, better ratings, less time spent managing them.</p>
+            <p class="service__what"><strong>WHAT YOU GET:</strong></p>
+            <ul class="service__list">
+              <li>Review generation systems</li>
+              <li>Response management</li>
+              <li>Reputation monitoring</li>
+              <li>Competitor review analysis</li>
+            </ul>
+          </div>
+          
+          <div class="service reveal reveal--delay-2">
+            <div class="service__icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg></div>
+            <h3 class="service__name">Content Marketing</h3>
+            <p class="service__tagline"><em>Rank for the searches your customers make.</em></p>
+            <p class="service__desc">Blog posts, neighborhood guides, service area pages, and comparison content. Written for humans, optimized for Google. Published consistently.</p>
+            <p class="service__what"><strong>WHAT YOU GET:</strong></p>
+            <ul class="service__list">
+              <li>Long-form blog content</li>
+              <li>Neighborhood and area guides</li>
+              <li>Service comparison pages</li>
+              <li>Content calendar and publishing</li>
+            </ul>
+          </div>
+          
+          <div class="service reveal reveal--delay-1">
+            <div class="service__icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+            <h3 class="service__name">Email Marketing</h3>
+            <p class="service__tagline"><em>Turn visitors into regulars.</em></p>
+            <p class="service__desc">Welcome sequences, promotional campaigns, and re-engagement flows. The emails your customers actually want to open.</p>
+            <p class="service__what"><strong>WHAT YOU GET:</strong></p>
+            <ul class="service__list">
+              <li>Welcome and onboarding sequences</li>
+              <li>Promotional campaigns</li>
+              <li>Re-engagement flows</li>
+              <li>Monthly newsletter management</li>
+            </ul>
+          </div>
+          
+          <div class="service reveal reveal--delay-2">
+            <div class="service__icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+            <h3 class="service__name">Social Media</h3>
+            <p class="service__tagline"><em>Stay visible where your community lives.</em></p>
+            <p class="service__desc">Consistent posting, local engagement, and community building across the platforms that matter for your business. Not corporate filler.</p>
+            <p class="service__what"><strong>WHAT YOU GET:</strong></p>
+            <ul class="service__list">
+              <li>Content creation and scheduling</li>
+              <li>Local community engagement</li>
+              <li>Platform-specific strategy</li>
+              <li>Monthly performance reporting</li>
+            </ul>
+          </div>
+          
+          <div class="service reveal">
+            <div class="service__icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg></div>
+            <h3 class="service__name">Analytics &amp; Reporting</h3>
+            <p class="service__tagline"><em>Know what's working. Skip what's not.</em></p>
+            <p class="service__desc">Clear reporting on what's driving traffic, leads, and revenue. No vanity metrics. Just the numbers that matter for your business.</p>
+            <p class="service__what"><strong>WHAT YOU GET:</strong></p>
+            <ul class="service__list">
+              <li>Monthly performance reports</li>
+              <li>Search ranking tracking</li>
+              <li>Traffic and conversion analysis</li>
+              <li>Competitor benchmarking</li>
+            </ul>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- ════════════════════════════════════════════════════════════
-         WHO WE WORK WITH — Industries
-         ════════════════════════════════════════════════════════════ -->
-    <section class="t-section t-section--dark">
+    <!-- NEIGHBORHOODS -->
+    <section class="narrative" id="neighborhoods" style="background: var(--color-bg-alt);">
       <div class="container">
-        <div class="t-layout">
-          <div class="t-label">
-            <span class="section-label reveal">Who we work with</span>
+        <header class="narrative__header">
+          <span class="section-label reveal">Where we work</span>
+          <h2 class="narrative__title reveal reveal--delay-1">
+            We're based in Seminole Heights. That local knowledge runs through everything we do.
+          </h2>
+        </header>
+        
+        <div class="narrative__grid">
+          <div class="narrative__item reveal">
+            <span class="narrative__number">01</span>
+            <p class="narrative__lead">We know the neighborhoods.</p>
+            <p class="narrative__body">Hyde Park Village vs. the residential streets off Bayshore. Ybor's weekend crowd vs. the weekday lunch regulars. Wesley Chapel families Googling everything for the first time. That context makes the content real.</p>
           </div>
-          <div class="t-content">
-            <p class="t-intro reveal">
-              Local businesses with local customers.
-            </p>
-            
-            <p class="t-text reveal">
-              Whether you're a restaurant in Ybor trying to fill tables on a Tuesday, a med spa 
-              in Hyde Park competing for "botox Tampa," a contractor in Brandon who needs to show 
-              up when someone's AC dies at 2 AM, or a law firm on Westshore tired of paying $50 
-              per click on Google Ads — we build the marketing that makes you findable.
-            </p>
-            
-            <p class="t-text reveal">
-              Restaurants and bars. Med spas and wellness clinics. Law firms. Real estate agents. 
-              Fitness studios and gyms. Contractors and home services. Dental and medical practices. 
-              Boutiques and retail. If your customers start their buying decision with a Google 
-              search, we can help.
-            </p>
+          
+          <div class="narrative__item reveal reveal--delay-1">
+            <span class="narrative__number">02</span>
+            <p class="narrative__lead">We cover the full Tampa Bay area.</p>
+            <p class="narrative__body">Downtown, Channelside, SoHo, South Tampa, Westshore, Water Street, Carrollwood, New Tampa, Wesley Chapel. Across the bridge in St. Pete and Clearwater. Down to Brandon, Riverview, and Valrico.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- ════════════════════════════════════════════════════════════
-         PRICING — Local Tiers
-         ════════════════════════════════════════════════════════════ -->
+    <!-- WHO WE WORK WITH -->
+    <section class="shift">
+      <div class="container">
+        <div class="shift__content">
+          <p class="shift__text reveal">
+            <span class="shift__eyebrow">Who we work with</span>
+            Restaurants and bars. Med spas and wellness clinics. Law firms. Real estate agents.
+            Fitness studios and gyms. Contractors and home services. Dental and medical practices.
+            Boutiques and retail.
+          </p>
+          <p class="shift__text reveal reveal--delay-1">
+            If your customers start their buying decision with a Google search, we can help.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING -->
     <section class="pricing" id="pricing">
       <div class="container">
         <header class="pricing__header">
@@ -435,9 +445,7 @@
       </div>
     </section>
 
-    <!-- ════════════════════════════════════════════════════════════
-         ABOUT — Your Neighbors
-         ════════════════════════════════════════════════════════════ -->
+    <!-- ABOUT -->
     <section class="about" id="about">
       <div class="container">
         <div class="about__layout">
@@ -446,22 +454,22 @@
           </div>
           <div class="about__content">
             <p class="about__intro reveal">
-              We're not a marketing agency in the traditional sense. We're a one-person 
+              We're not a marketing agency in the traditional sense. We're a one-person
               operation powered by AI that outperforms teams ten times our size.
             </p>
             <p class="about__text reveal reveal--delay-1">
-              Mike Maseda lives in Seminole Heights. He founded MAMV Ventures to build things 
-              that actually work — including Loki, the AI agent that powers HireLoki. Loki 
-              handles the volume: building pages, writing content, optimizing listings, managing 
+              Mike Maseda lives in Seminole Heights. He founded MAMV Ventures to build things
+              that actually work — including Loki, the AI agent that powers HireLoki. Loki
+              handles the volume: building pages, writing content, optimizing listings, managing
               campaigns, running 24 hours a day without burning out.
             </p>
             <p class="about__text reveal reveal--delay-2">
-              Mike reviews everything before it ships. Every page, every email, every post gets 
-              human eyes and local judgment before your customers see it. AI does the work. A 
+              Mike reviews everything before it ships. Every page, every email, every post gets
+              human eyes and local judgment before your customers see it. AI does the work. A
               human makes sure it's right.
             </p>
             <p class="about__text reveal reveal--delay-3">
-              We're your neighbors, not a faceless agency in another state. If you want to meet 
+              We're your neighbors, not a faceless agency in another state. If you want to meet
               at Buddy Brew and walk through your marketing over a cortado, we're five minutes away.
             </p>
             <div class="about__stats reveal reveal--delay-4">
@@ -483,9 +491,7 @@
       </div>
     </section>
 
-    <!-- ════════════════════════════════════════════════════════════
-         FAQ — Local Questions
-         ════════════════════════════════════════════════════════════ -->
+    <!-- FAQ -->
     <section class="faq">
       <div class="container">
         <header class="faq__header">
@@ -499,7 +505,7 @@
               <span class="faq__icon"></span>
             </summary>
             <div class="faq__answer">
-              <p>Our local services are focused on Tampa Bay — Tampa, St. Pete, Clearwater, and surrounding communities. For businesses outside this area, check out <a href="/">hireloki.com</a> for broader growth marketing services covering SaaS, B2B, and national brands.</p>
+              <p>Our local services are focused on Tampa Bay — Tampa, St. Pete, Clearwater, and surrounding communities. For businesses outside this area, check out <a href="/">hireloki.com</a> for broader growth marketing services.</p>
             </div>
           </details>
           
@@ -519,7 +525,7 @@
               <span class="faq__icon"></span>
             </summary>
             <div class="faq__answer">
-              <p>Traditional agencies charge $5-10K per month, assign a junior account manager to your business, and take months to ramp up. We use AI to handle the heavy lifting — building pages, writing content, managing campaigns — at a fraction of the cost. Everything gets human review before it goes live. You get agency-level output without agency-level overhead.</p>
+              <p>Traditional agencies charge $5-10K per month, assign a junior account manager, and take months to ramp up. We use AI to handle the heavy lifting at a fraction of the cost. Everything gets human review before it goes live. You get agency-level output without agency-level overhead.</p>
             </div>
           </details>
           
@@ -529,7 +535,7 @@
               <span class="faq__icon"></span>
             </summary>
             <div class="faq__answer">
-              <p>Google Business Profile improvements and local pages go live within days. You'll typically see movement in local search rankings within 4-8 weeks, with meaningful traffic growth in 2-4 months. SEO is a long game, but we start building from day one. Anyone promising overnight rankings isn't being honest.</p>
+              <p>Google Business Profile improvements and local pages go live within days. You'll typically see movement in local search rankings within 4-8 weeks, with meaningful traffic growth in 2-4 months. Anyone promising overnight rankings isn't being honest.</p>
             </div>
           </details>
           
@@ -546,9 +552,7 @@
       </div>
     </section>
 
-    <!-- ════════════════════════════════════════════════════════════
-         CLOSING — Let's Talk
-         ════════════════════════════════════════════════════════════ -->
+    <!-- CLOSING -->
     <section class="closing">
       <div class="container">
         <div class="closing__content reveal">
@@ -569,9 +573,6 @@
 
   </main>
 
-  <!-- ════════════════════════════════════════════════════════════
-       FOOTER
-       ════════════════════════════════════════════════════════════ -->
   <footer class="footer">
     <div class="container">
       <div class="footer__inner">
@@ -592,60 +593,35 @@
     </div>
   </footer>
 
-  <!-- ════════════════════════════════════════════════════════════
-       SCRIPTS
-       ════════════════════════════════════════════════════════════ -->
   <script>
-    // Scroll-triggered reveals
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('is-visible');
-          }
+          if (entry.isIntersecting) entry.target.classList.add('is-visible');
         });
       },
-      { 
-        threshold: 0.1,
-        rootMargin: '0px 0px -60px 0px'
-      }
+      { threshold: 0.1, rootMargin: '0px 0px -60px 0px' }
     );
-
     document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 
-    // Header scroll state
     const header = document.getElementById('header');
     let lastScroll = 0;
-    
     window.addEventListener('scroll', () => {
       const currentScroll = window.pageYOffset;
-      
-      if (currentScroll > 100) {
-        header.classList.add('is-scrolled');
-      } else {
-        header.classList.remove('is-scrolled');
-      }
-      
-      if (currentScroll > lastScroll && currentScroll > 400) {
-        header.classList.add('is-hidden');
-      } else {
-        header.classList.remove('is-hidden');
-      }
-      
+      if (currentScroll > 100) header.classList.add('is-scrolled');
+      else header.classList.remove('is-scrolled');
+      if (currentScroll > lastScroll && currentScroll > 400) header.classList.add('is-hidden');
+      else header.classList.remove('is-hidden');
       lastScroll = currentScroll;
     }, { passive: true });
 
-    // Mobile menu toggle
     const menuToggle = document.getElementById('menuToggle');
     const headerNav = document.getElementById('headerNav');
-    
     menuToggle.addEventListener('click', () => {
       menuToggle.classList.toggle('is-active');
       headerNav.classList.toggle('is-open');
       document.body.classList.toggle('menu-open');
     });
-
-    // Close menu on link click
     headerNav.querySelectorAll('a').forEach(link => {
       link.addEventListener('click', () => {
         menuToggle.classList.remove('is-active');
@@ -653,24 +629,16 @@
         document.body.classList.remove('menu-open');
       });
     });
-
-    // Smooth scroll for anchor links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       anchor.addEventListener('click', function(e) {
         e.preventDefault();
         const target = document.querySelector(this.getAttribute('href'));
         if (target) {
-          const offset = 100;
-          const top = target.getBoundingClientRect().top + window.pageYOffset - offset;
+          const top = target.getBoundingClientRect().top + window.pageYOffset - 100;
           window.scrollTo({ top, behavior: 'smooth' });
         }
       });
     });
-
-    // Console easter egg
-    console.log('%cHey, Tampa.', 'font-size: 20px; font-weight: bold;');
-    console.log('%cLoki here. I built this page — want me to build your marketing too?', 'font-size: 14px; color: #6B7C6B;');
-    console.log('%cloki@mamv.co', 'font-size: 14px; color: #5a5a5a;');
   </script>
 
 </body>
