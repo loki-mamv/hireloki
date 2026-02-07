@@ -444,28 +444,23 @@ ul, ol { list-style: none; }
         <p class="pricing__subtitle reveal reveal--delay-2">One-time build or ongoing support. Cancel anytime.</p>
       </header>
 
-      <div class="pricing__toggle reveal" id="pricingToggle">
-        <span class="pricing__toggle-label pricing__toggle-label--active" data-period="monthly">Monthly</span>
-        <div class="toggle-switch" id="toggleSwitch"></div>
-        <span class="pricing__toggle-label" data-period="annual">Annual</span>
-        <span class="pricing__save">Save 10%</span>
-      </div>
+      <h3 class="pricing__group-title reveal" style="font-family:var(--font-serif);font-size:clamp(1.25rem,3vw,1.75rem);font-weight:400;margin-bottom:var(--space-xs);">Website Build</h3>
+      <p class="reveal" style="font-size:0.9375rem;color:var(--color-text-secondary);margin-bottom:var(--space-lg);">A professional site that actually brings in customers. Live in 2-3 weeks.</p>
 
-      <div class="pricing__grid">
+      <div class="pricing__grid" style="grid-template-columns:repeat(2,1fr);">
         <div class="pricing__tier reveal">
           <div class="pricing__tier-header">
-            <span class="pricing__tier-name">Starter</span>
-            <span class="pricing__tier-price">$1,500<span> one-time</span></span>
+            <span class="pricing__tier-name">Standard</span>
+            <span class="pricing__tier-price">$1,500</span>
           </div>
-          <p class="pricing__tier-desc">Professional 5-7 page website. Live in 2-3 weeks.</p>
+          <p class="pricing__tier-desc">A clean, professional 5-7 page site.</p>
           <ul class="pricing__tier-list">
-            <li>Home, About, Services, Contact, Reviews pages</li>
+            <li>Home, About, Services, Contact, Reviews</li>
             <li>Mobile-responsive design</li>
-            <li>SSL certificate and basic security</li>
+            <li>SSL and basic security</li>
             <li>Contact form with email notifications</li>
             <li>Google Maps integration</li>
             <li>Basic SEO setup</li>
-            <li>2 rounds of revisions</li>
           </ul>
           <div class="pricing__tier-cta">
             <a href="#contact" class="btn btn--primary" style="width:100%;justify-content:center;">Get Started</a>
@@ -473,19 +468,59 @@ ul, ol { list-style: none; }
         </div>
 
         <div class="pricing__tier pricing__tier--featured reveal reveal--delay-1">
-          <span class="pricing__tier-badge">Recommended</span>
+          <span class="pricing__tier-badge">Full build</span>
           <div class="pricing__tier-header">
-            <span class="pricing__tier-name">Care Plan</span>
-            <span class="pricing__tier-price" data-monthly="$99" data-annual="$89"><span class="price-value">$99</span><span>/mo</span></span>
+            <span class="pricing__tier-name">Advanced</span>
+            <span class="pricing__tier-price">$3,000</span>
           </div>
-          <p class="pricing__tier-desc">Keep your site secure, updated, and running smoothly.</p>
+          <p class="pricing__tier-desc">Everything in Standard, plus functionality that drives revenue.</p>
           <ul class="pricing__tier-list">
-            <li>Reliable hosting and SSL management</li>
-            <li>Platform updates and security patches</li>
-            <li>Up to 2 content edits per month</li>
-            <li>Uptime monitoring and monthly report</li>
-            <li>Daily backups</li>
-            <li>Email support</li>
+            <li>Online booking and scheduling</li>
+            <li>Custom forms and intake flows</li>
+            <li>More pages and service areas</li>
+            <li>Advanced integrations</li>
+            <li>E-commerce or payment processing</li>
+            <li>Priority turnaround</li>
+          </ul>
+          <div class="pricing__tier-cta">
+            <a href="#contact" class="btn btn--primary" style="width:100%;justify-content:center;">Get Started</a>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="pricing__group-title reveal" style="font-family:var(--font-serif);font-size:clamp(1.25rem,3vw,1.75rem);font-weight:400;margin-top:var(--space-2xl);margin-bottom:var(--space-xs);">Monthly Maintenance</h3>
+      <p class="reveal" style="font-size:0.9375rem;color:var(--color-text-secondary);margin-bottom:var(--space-lg);">Keep it running, keep it growing. Cancel anytime.</p>
+
+      <div class="pricing__grid">
+        <div class="pricing__tier reveal">
+          <div class="pricing__tier-header">
+            <span class="pricing__tier-name">Essentials</span>
+            <span class="pricing__tier-price">$99<span>/mo</span></span>
+          </div>
+          <p class="pricing__tier-desc">The basics, handled.</p>
+          <ul class="pricing__tier-list">
+            <li>Hosting and SSL</li>
+            <li>Software and security updates</li>
+            <li>Minor edits and content changes</li>
+            <li>Uptime monitoring</li>
+          </ul>
+          <div class="pricing__tier-cta">
+            <a href="#contact" class="btn btn--primary" style="width:100%;justify-content:center;">Get Started</a>
+          </div>
+        </div>
+
+        <div class="pricing__tier pricing__tier--featured reveal reveal--delay-1">
+          <span class="pricing__tier-badge">Popular</span>
+          <div class="pricing__tier-header">
+            <span class="pricing__tier-name">Growth</span>
+            <span class="pricing__tier-price">$199<span>/mo</span></span>
+          </div>
+          <p class="pricing__tier-desc">Essentials plus the marketing that moves the needle.</p>
+          <ul class="pricing__tier-list">
+            <li>Everything in Essentials</li>
+            <li>Local SEO and keyword tracking</li>
+            <li>Google Business Profile management</li>
+            <li>Monthly content updates</li>
           </ul>
           <div class="pricing__tier-cta">
             <a href="#contact" class="btn btn--primary" style="width:100%;justify-content:center;">Get Started</a>
@@ -494,17 +529,15 @@ ul, ol { list-style: none; }
 
         <div class="pricing__tier reveal reveal--delay-2">
           <div class="pricing__tier-header">
-            <span class="pricing__tier-name">Growth Plan</span>
-            <span class="pricing__tier-price" data-monthly="$199" data-annual="$179"><span class="price-value">$199</span><span>/mo</span></span>
+            <span class="pricing__tier-name">Full Service</span>
+            <span class="pricing__tier-price">$299<span>/mo</span></span>
           </div>
-          <p class="pricing__tier-desc">Everything in Care, plus marketing that grows your business.</p>
+          <p class="pricing__tier-desc">The whole stack. We run your marketing.</p>
           <ul class="pricing__tier-list">
-            <li>Everything in Care Plan</li>
-            <li>Google Business Profile optimization</li>
-            <li>Local SEO and keyword targeting</li>
-            <li>1 blog post or content update per month</li>
-            <li>Monthly analytics report with insights</li>
-            <li>Priority support</li>
+            <li>Everything in Growth</li>
+            <li>Blog posts and content marketing</li>
+            <li>Analytics reports and insights</li>
+            <li>Ad management and optimization</li>
           </ul>
           <div class="pricing__tier-cta">
             <a href="#contact" class="btn btn--primary" style="width:100%;justify-content:center;">Get Started</a>
