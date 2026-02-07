@@ -3,572 +3,894 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Tampa Web Design for Local Service Businesses | Free Website Audit</title>
-<meta name="description" content="We help Tampa plumbers, electricians, HVAC techs, and roofers get professional websites that bring in leads. Get your free website audit today.">
-<meta property="og:title" content="Your Website Is Costing You Customers | Tampa Web Design">
-<meta property="og:description" content="Free website audit for Tampa service businesses. We score your site across 7 categories and show you exactly what's wrong.">
+<title>Tampa Web Design for Service Businesses | HireLoki</title>
+<meta name="description" content="Professional websites for Tampa service businesses. Free website audit scoring your site across 7 categories. New site in 2-3 weeks starting at $1,500.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://hireloki.com/tampa-agency.html">
+
 <meta property="og:type" content="website">
+<meta property="og:url" content="https://hireloki.com/tampa-agency.html">
+<meta property="og:title" content="Tampa Web Design for Service Businesses | HireLoki">
+<meta property="og:description" content="Your website is costing you customers. Free audit + professional redesign starting at $1,500.">
+<meta property="og:image" content="https://hireloki.com/og-image.png">
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%231a1a1a'/><text x='50' y='68' text-anchor='middle' font-size='48' font-family='Georgia,serif' fill='%23f5f4f0' font-style='italic'>L</text></svg>">
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Sans:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "HireLoki - Tampa Web Design",
+  "url": "https://hireloki.com/tampa-agency.html",
+  "email": "loki@mamv.co",
+  "areaServed": { "@type": "City", "name": "Tampa", "addressRegion": "FL" },
+  "description": "Professional web design for Tampa service businesses. Free website audits and affordable redesigns.",
+  "priceRange": "$1,500 - $199/mo"
+}
+</script>
+
 <style>
-*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
-:root{
---bg:#0a0a0b;--bg2:#111113;--bg3:#1a1a1d;--bg4:#222226;
---text:#e8e8ec;--text2:#a0a0aa;--text3:#6a6a75;
---accent:#f59e0b;--accent2:#d97706;--accent3:#fbbf24;
---radius:12px;--radius-lg:20px;
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --color-bg: #FAF9F6;
+  --color-bg-alt: #F4F3EF;
+  --color-bg-dark: #1a1a1a;
+  --color-bg-dark-soft: #242424;
+  --color-text: #1a1a1a;
+  --color-text-secondary: #5a5a5a;
+  --color-text-tertiary: #8a8a8a;
+  --color-text-inverse: #FAF9F6;
+  --color-accent: #6B7C6B;
+  --color-accent-hover: #5A6B5A;
+  --color-accent-light: #8A9B8A;
+  --color-warm: #C4956A;
+  --color-warm-light: #D4A87A;
+  --color-border: #E5E4E0;
+  --color-border-dark: #333;
+  --font-serif: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --font-sans: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --space-xs: 8px;
+  --space-sm: 16px;
+  --space-md: 24px;
+  --space-lg: 48px;
+  --space-xl: 80px;
+  --space-2xl: 120px;
+  --space-3xl: 180px;
+  --container-max: 1200px;
+  --container-narrow: 800px;
+  --container-text: 640px;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --duration-fast: 0.2s;
+  --duration-normal: 0.4s;
+  --duration-slow: 0.8s;
 }
-html{scroll-behavior:smooth;scroll-padding-top:80px}
-body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);line-height:1.6;overflow-x:hidden}
-h1,h2,h3,h4,h5{font-family:'Space Grotesk',sans-serif;font-weight:700;line-height:1.15}
-a{color:var(--accent);text-decoration:none}
-img{max-width:100%;display:block}
-.container{max-width:1140px;margin:0 auto;padding:0 24px}
 
-/* NAV */
-nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:16px 0;transition:background .3s,box-shadow .3s}
-nav.scrolled{background:rgba(10,10,11,.92);backdrop-filter:blur(16px);box-shadow:0 1px 0 rgba(255,255,255,.06)}
-nav .container{display:flex;align-items:center;justify-content:space-between}
-.nav-logo{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:1.25rem;color:var(--text);display:flex;align-items:center;gap:8px}
-.nav-logo span{color:var(--accent)}
-.nav-links{display:flex;gap:28px;align-items:center}
-.nav-links a{color:var(--text2);font-size:.9rem;font-weight:500;transition:color .2s}
-.nav-links a:hover{color:var(--text)}
-.nav-cta{background:var(--accent);color:#000;padding:10px 22px;border-radius:8px;font-weight:600;font-size:.9rem;transition:background .2s}
-.nav-cta:hover{background:var(--accent3);color:#000}
-.mobile-toggle{display:none;background:none;border:none;color:var(--text);font-size:1.5rem;cursor:pointer}
-@media(max-width:768px){
-.nav-links{display:none;position:fixed;inset:0;background:var(--bg);flex-direction:column;justify-content:center;align-items:center;gap:32px;z-index:99}
-.nav-links.open{display:flex}
-.nav-links a{font-size:1.25rem}
-.mobile-toggle{display:block;z-index:101}
+html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-size: 16px; }
+body { font-family: var(--font-sans); font-size: 1rem; line-height: 1.6; color: var(--color-text); background: var(--color-bg); overflow-x: hidden; }
+body.menu-open { overflow: hidden; }
+::selection { background: var(--color-accent); color: var(--color-text-inverse); }
+img, svg { display: block; max-width: 100%; }
+a { color: inherit; text-decoration: none; }
+button { cursor: pointer; border: none; background: none; font: inherit; color: inherit; }
+ul, ol { list-style: none; }
+
+.container { max-width: var(--container-max); margin: 0 auto; padding: 0 var(--space-md); }
+@media (min-width: 768px) { .container { padding: 0 var(--space-lg); } }
+@media (min-width: 1200px) { .container { padding: 0 var(--space-xl); } }
+
+.section-label { display: block; font-family: var(--font-sans); font-size: 0.75rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.15em; color: var(--color-text-tertiary); margin-bottom: var(--space-md); }
+
+/* Reveal */
+.reveal { opacity: 0; transform: translateY(30px); transition: opacity var(--duration-slow) var(--ease-out), transform var(--duration-slow) var(--ease-out); }
+.reveal.is-visible { opacity: 1; transform: translateY(0); }
+.reveal--delay-1 { transition-delay: 0.1s; }
+.reveal--delay-2 { transition-delay: 0.2s; }
+.reveal--delay-3 { transition-delay: 0.3s; }
+.reveal--delay-4 { transition-delay: 0.4s; }
+
+/* Header */
+.header { position: fixed; top: 0; left: 0; right: 0; z-index: 100; padding: var(--space-md) 0; transition: transform var(--duration-normal) var(--ease-out), background var(--duration-normal) var(--ease-out), padding var(--duration-normal) var(--ease-out); }
+.header.is-scrolled { background: rgba(250, 249, 246, 0.95); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); padding: var(--space-sm) 0; box-shadow: 0 1px 0 var(--color-border); }
+.header.is-hidden { transform: translateY(-100%); }
+.header__inner { max-width: var(--container-max); margin: 0 auto; padding: 0 var(--space-md); display: flex; align-items: center; justify-content: space-between; }
+@media (min-width: 768px) { .header__inner { padding: 0 var(--space-lg); } }
+@media (min-width: 1200px) { .header__inner { padding: 0 var(--space-xl); } }
+.header__logo { display: flex; align-items: center; gap: 12px; font-family: var(--font-sans); font-weight: 500; font-size: 0.9rem; letter-spacing: 0.02em; }
+.header__logo-mark { width: 32px; height: 32px; display: flex; align-items: center; justify-content: center; background: var(--color-text); color: var(--color-bg); font-family: var(--font-serif); font-size: 1.1rem; font-style: italic; font-weight: 500; }
+.header__nav { display: none; align-items: center; gap: var(--space-lg); font-size: 0.875rem; }
+@media (min-width: 768px) { .header__nav { display: flex; } }
+.header__nav a { position: relative; color: var(--color-text-secondary); transition: color var(--duration-fast) var(--ease-out); }
+.header__nav a:hover { color: var(--color-text); }
+.header__nav a::after { content: ''; position: absolute; bottom: -4px; left: 0; width: 0; height: 1px; background: var(--color-text); transition: width var(--duration-normal) var(--ease-out); }
+.header__nav a:hover::after { width: 100%; }
+.header__nav-cta { padding: 10px 20px; background: var(--color-text); color: var(--color-bg) !important; border-radius: 2px; transition: background var(--duration-fast) var(--ease-out), transform var(--duration-fast) var(--ease-out); }
+.header__nav-cta::after { display: none; }
+.header__nav-cta:hover { background: var(--color-accent); transform: translateY(-1px); }
+.header__menu { display: flex; flex-direction: column; gap: 6px; padding: 8px; margin-right: -8px; }
+@media (min-width: 768px) { .header__menu { display: none; } }
+.header__menu span { display: block; width: 24px; height: 1.5px; background: var(--color-text); transition: transform var(--duration-fast) var(--ease-out), opacity var(--duration-fast) var(--ease-out); }
+.header__menu.is-active span:first-child { transform: translateY(3.75px) rotate(45deg); }
+.header__menu.is-active span:last-child { transform: translateY(-3.75px) rotate(-45deg); }
+@media (max-width: 767px) {
+  .header__nav { position: fixed; inset: 0; background: var(--color-bg); flex-direction: column; justify-content: center; gap: var(--space-lg); font-size: 1.5rem; opacity: 0; pointer-events: none; transition: opacity var(--duration-normal) var(--ease-out); }
+  .header__nav.is-open { display: flex; opacity: 1; pointer-events: auto; }
+  .header__nav a { color: var(--color-text); }
+  .header__nav-cta { font-size: 1rem; padding: 16px 32px; }
 }
 
-/* HERO */
-.hero{padding:160px 0 100px;text-align:center;position:relative;overflow:hidden}
-.hero::before{content:'';position:absolute;top:-200px;left:50%;transform:translateX(-50%);width:800px;height:800px;background:radial-gradient(circle,rgba(245,158,11,.08) 0%,transparent 70%);pointer-events:none}
-.hero-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(245,158,11,.1);border:1px solid rgba(245,158,11,.2);padding:8px 16px;border-radius:100px;font-size:.85rem;color:var(--accent);margin-bottom:24px;font-weight:500}
-.hero-badge .dot{width:6px;height:6px;background:var(--accent);border-radius:50%;animation:pulse 2s infinite}
-@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
-.hero h1{font-size:clamp(2.5rem,6vw,4.5rem);max-width:800px;margin:0 auto 24px;letter-spacing:-.03em}
-.hero h1 em{font-style:normal;color:var(--accent);position:relative}
-.hero p{font-size:clamp(1.05rem,2vw,1.25rem);color:var(--text2);max-width:580px;margin:0 auto 40px}
-.hero-ctas{display:flex;gap:16px;justify-content:center;flex-wrap:wrap}
-.btn{display:inline-flex;align-items:center;gap:8px;padding:14px 32px;border-radius:10px;font-weight:600;font-size:1rem;transition:all .25s;cursor:pointer;border:none;font-family:inherit}
-.btn-primary{background:var(--accent);color:#000}.btn-primary:hover{background:var(--accent3);transform:translateY(-2px);box-shadow:0 8px 30px rgba(245,158,11,.25)}
-.btn-secondary{background:transparent;color:var(--text);border:1px solid var(--bg4)}.btn-secondary:hover{border-color:var(--text3);background:var(--bg2)}
-.hero-stats{display:flex;gap:48px;justify-content:center;margin-top:64px;flex-wrap:wrap}
-.hero-stat{text-align:center}
-.hero-stat .num{font-family:'Space Grotesk',sans-serif;font-size:2rem;font-weight:700;color:var(--accent)}
-.hero-stat .label{font-size:.85rem;color:var(--text3);margin-top:4px}
+/* Buttons */
+.btn { display: inline-flex; align-items: center; gap: 0.5em; padding: 0.875rem 1.5rem; font-family: var(--font-sans); font-size: 0.9375rem; font-weight: 500; text-decoration: none; border-radius: 4px; transition: all var(--duration-fast) var(--ease-out); }
+.btn--primary { background: var(--color-text); color: var(--color-bg); }
+.btn--primary:hover { background: var(--color-accent); }
+.btn--secondary { background: transparent; color: var(--color-text); border: 1px solid var(--color-border); }
+.btn--secondary:hover { border-color: var(--color-text); }
 
-/* SECTIONS */
-section{padding:100px 0}
-.section-label{display:inline-flex;align-items:center;gap:8px;color:var(--accent);font-size:.85rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;margin-bottom:16px}
-.section-title{font-size:clamp(2rem,4vw,3rem);margin-bottom:16px;letter-spacing:-.02em}
-.section-sub{color:var(--text2);font-size:1.1rem;max-width:560px;margin-bottom:48px}
-.section-sub.center{margin-left:auto;margin-right:auto}
-.text-center{text-align:center}
+/* Hero */
+.hero { min-height: 100vh; min-height: 100dvh; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: var(--space-2xl) var(--space-md); text-align: center; position: relative; }
+.hero__content { max-width: 900px; }
+.hero__badge { display: inline-block; font-family: var(--font-sans); font-size: 0.8rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.08em; color: var(--color-accent); margin-bottom: var(--space-md); }
+.hero__title { font-family: var(--font-serif); font-size: clamp(2.5rem, 8vw, 5.5rem); font-weight: 400; line-height: 1.1; letter-spacing: -0.02em; }
+.hero__title-line { display: block; }
+.hero__title-line--accent { font-style: italic; color: var(--color-accent); }
+.hero__subtitle { font-family: var(--font-sans); font-size: 1.125rem; color: var(--color-text-secondary); max-width: 560px; margin: var(--space-md) auto 0; line-height: 1.7; }
+.hero__cta { display: flex; flex-wrap: wrap; justify-content: center; gap: var(--space-sm); margin-top: var(--space-lg); }
+.hero__scroll { position: absolute; bottom: var(--space-lg); left: 50%; transform: translateX(-50%); display: flex; flex-direction: column; align-items: center; gap: var(--space-sm); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--color-text-tertiary); }
+.hero__scroll svg { animation: scrollBounce 2s infinite; }
+@keyframes scrollBounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(6px); } }
 
-/* WHAT WE CHECK */
-.audit-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
-.audit-card{background:var(--bg2);border:1px solid rgba(255,255,255,.05);border-radius:var(--radius);padding:32px;transition:all .3s}
-.audit-card:hover{border-color:rgba(245,158,11,.2);transform:translateY(-4px);box-shadow:0 12px 40px rgba(0,0,0,.3)}
-.audit-icon{width:48px;height:48px;background:rgba(245,158,11,.1);border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:1.4rem;margin-bottom:16px}
-.audit-card h3{font-size:1.15rem;margin-bottom:8px}
-.audit-card p{color:var(--text2);font-size:.95rem;line-height:1.5}
+/* Ticker */
+.ticker { overflow: hidden; padding: var(--space-sm) 0; border-top: 1px solid var(--color-border); border-bottom: 1px solid var(--color-border); background: var(--color-bg); }
+.ticker__track { display: flex; gap: var(--space-md); white-space: nowrap; animation: tickerScroll 30s linear infinite; width: max-content; }
+.ticker__item { font-family: var(--font-sans); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--color-text-tertiary); }
+.ticker__sep { color: var(--color-border); font-size: 0.5rem; display: flex; align-items: center; }
+@keyframes tickerScroll { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
+.ticker:hover .ticker__track { animation-play-state: paused; }
 
-/* PRICING */
-.pricing-section{background:var(--bg2)}
-.toggle-wrap{display:flex;align-items:center;justify-content:center;gap:12px;margin-bottom:48px}
-.toggle-wrap span{font-size:.95rem;color:var(--text2);font-weight:500}
-.toggle-wrap span.active{color:var(--text)}
-.toggle{width:52px;height:28px;background:var(--bg4);border-radius:100px;position:relative;cursor:pointer;transition:background .3s}
-.toggle.on{background:var(--accent)}
-.toggle::after{content:'';position:absolute;top:3px;left:3px;width:22px;height:22px;background:#fff;border-radius:50%;transition:transform .3s}
-.toggle.on::after{transform:translateX(24px)}
-.save-badge{background:rgba(245,158,11,.15);color:var(--accent);padding:4px 10px;border-radius:100px;font-size:.75rem;font-weight:600}
-.pricing-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px;align-items:start}
-.price-card{background:var(--bg);border:1px solid rgba(255,255,255,.06);border-radius:var(--radius-lg);padding:36px;position:relative;transition:all .3s}
-.price-card.featured{border-color:var(--accent);box-shadow:0 0 60px rgba(245,158,11,.1)}
-.price-card.featured::before{content:'MOST POPULAR';position:absolute;top:-12px;left:50%;transform:translateX(-50%);background:var(--accent);color:#000;padding:4px 16px;border-radius:100px;font-size:.75rem;font-weight:700;letter-spacing:.05em}
-.price-card .tier{font-size:.9rem;color:var(--accent);font-weight:600;text-transform:uppercase;letter-spacing:.05em;margin-bottom:8px}
-.price-card .price{font-family:'Space Grotesk',sans-serif;font-size:3rem;font-weight:700;margin-bottom:4px}
-.price-card .price small{font-size:1rem;color:var(--text2);font-weight:400}
-.price-card .price-note{font-size:.85rem;color:var(--text3);margin-bottom:24px}
-.price-card ul{list-style:none;margin-bottom:32px}
-.price-card li{padding:8px 0;font-size:.95rem;color:var(--text2);display:flex;gap:10px;align-items:start}
-.price-card li::before{content:'✓';color:var(--accent);font-weight:700;flex-shrink:0}
-.price-card .btn{width:100%;justify-content:center}
+/* What We Check */
+.audit { padding: var(--space-3xl) 0; background: var(--color-bg-alt); }
+.audit__header { margin-bottom: var(--space-2xl); }
+.audit__title { font-family: var(--font-serif); font-size: clamp(2rem, 5vw, 3.5rem); font-weight: 400; line-height: 1.15; letter-spacing: -0.02em; max-width: 600px; }
+.audit__subtitle { font-size: 1rem; color: var(--color-text-secondary); margin-top: var(--space-sm); max-width: 480px; line-height: 1.7; }
+.audit__grid { display: grid; gap: 1px; background: var(--color-border); }
+@media (min-width: 640px) { .audit__grid { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 960px) { .audit__grid { grid-template-columns: repeat(3, 1fr); } }
+.audit__item { background: var(--color-bg); padding: var(--space-lg); position: relative; }
+.audit__item-marker { font-family: var(--font-serif); font-size: 2rem; color: var(--color-accent); line-height: 1; margin-bottom: var(--space-sm); }
+.audit__item-name { font-family: var(--font-serif); font-size: 1.375rem; font-weight: 400; margin-bottom: var(--space-xs); }
+.audit__item-desc { font-size: 0.9375rem; line-height: 1.7; color: var(--color-text-secondary); }
+.audit__item--full { background: var(--color-bg-alt); }
+@media (min-width: 960px) { .audit__item--full { grid-column: span 3; display: flex; align-items: center; justify-content: center; text-align: center; flex-direction: column; } }
 
-/* ABOUT */
-.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
-.about-img{background:var(--bg3);border-radius:var(--radius-lg);height:400px;display:flex;align-items:center;justify-content:center;color:var(--text3);font-size:.9rem;border:1px solid rgba(255,255,255,.05)}
-.about-content h2{font-size:clamp(1.8rem,3vw,2.5rem);margin-bottom:20px;letter-spacing:-.02em}
-.about-content p{color:var(--text2);margin-bottom:16px;font-size:1.05rem}
-.about-badges{display:flex;gap:16px;margin-top:24px;flex-wrap:wrap}
-.badge{display:flex;align-items:center;gap:8px;background:var(--bg3);border:1px solid rgba(255,255,255,.06);padding:10px 18px;border-radius:100px;font-size:.85rem;font-weight:500;color:var(--text2)}
-.badge .badge-icon{font-size:1.1rem}
-@media(max-width:768px){.about-grid{grid-template-columns:1fr;gap:32px}.about-img{height:250px}}
+/* Pricing */
+.pricing { padding: var(--space-3xl) 0; }
+.pricing__header { margin-bottom: var(--space-2xl); max-width: 480px; }
+.pricing__title { font-family: var(--font-serif); font-size: clamp(2rem, 5vw, 3.5rem); font-weight: 400; line-height: 1.15; letter-spacing: -0.02em; margin-bottom: var(--space-sm); }
+.pricing__subtitle { font-size: 1rem; color: var(--color-text-secondary); }
 
-/* RESULTS */
-.results-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:24px}
-.result-card{background:var(--bg2);border-radius:var(--radius-lg);overflow:hidden;border:1px solid rgba(255,255,255,.05)}
-.result-before-after{display:grid;grid-template-columns:1fr 1fr;height:200px}
-.result-before,.result-after{display:flex;align-items:center;justify-content:center;font-size:.8rem;font-weight:600;text-transform:uppercase;letter-spacing:.08em}
-.result-before{background:rgba(239,68,68,.1);color:#ef4444}
-.result-after{background:rgba(34,197,94,.1);color:#22c55e}
-.result-info{padding:24px}
-.result-info h3{margin-bottom:8px;font-size:1.1rem}
-.result-info p{color:var(--text2);font-size:.9rem;margin-bottom:16px}
-.score-bar{display:flex;align-items:center;gap:12px}
-.score-track{flex:1;height:8px;background:var(--bg4);border-radius:100px;overflow:hidden}
-.score-fill{height:100%;border-radius:100px;transition:width 1.5s ease}
-.score-fill.bad{background:linear-gradient(90deg,#ef4444,#f97316)}
-.score-fill.good{background:linear-gradient(90deg,#22c55e,#4ade80)}
-.score-num{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:.95rem;min-width:32px;text-align:right}
-.score-num.bad{color:#ef4444}.score-num.good{color:#22c55e}
+.pricing__toggle { display: flex; align-items: center; gap: var(--space-sm); margin-bottom: var(--space-lg); }
+.pricing__toggle-label { font-size: 0.875rem; color: var(--color-text-secondary); }
+.pricing__toggle-label--active { color: var(--color-text); font-weight: 500; }
+.toggle-switch { position: relative; width: 48px; height: 26px; background: var(--color-border); border-radius: 13px; cursor: pointer; transition: background var(--duration-fast) var(--ease-out); }
+.toggle-switch.is-active { background: var(--color-accent); }
+.toggle-switch::after { content: ''; position: absolute; top: 3px; left: 3px; width: 20px; height: 20px; background: white; border-radius: 50%; transition: transform var(--duration-fast) var(--ease-out); }
+.toggle-switch.is-active::after { transform: translateX(22px); }
+.pricing__save { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--color-warm); font-weight: 500; }
 
-/* TESTIMONIALS */
-.testimonials-section{background:var(--bg2)}
-.test-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:24px}
-.test-card{background:var(--bg);border:1px solid rgba(255,255,255,.05);border-radius:var(--radius);padding:32px;position:relative}
-.test-card::before{content:'"';font-family:'Space Grotesk',sans-serif;font-size:4rem;color:var(--accent);opacity:.3;position:absolute;top:16px;right:24px;line-height:1}
-.test-stars{color:var(--accent);font-size:1rem;margin-bottom:12px;letter-spacing:2px}
-.test-card blockquote{color:var(--text2);font-size:1rem;line-height:1.6;margin-bottom:20px;font-style:italic}
-.test-author{display:flex;align-items:center;gap:12px}
-.test-avatar{width:44px;height:44px;background:var(--bg3);border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;color:var(--accent);font-size:.9rem}
-.test-name{font-weight:600;font-size:.95rem}
-.test-role{font-size:.8rem;color:var(--text3)}
+.pricing__grid { display: grid; gap: 1px; background: var(--color-border); }
+@media (min-width: 768px) { .pricing__grid { grid-template-columns: repeat(3, 1fr); } }
+.pricing__tier { background: var(--color-bg); padding: var(--space-lg); position: relative; }
+@media (min-width: 768px) { .pricing__tier { padding: var(--space-xl) var(--space-lg); } }
+.pricing__tier--featured { background: var(--color-bg-alt); }
+.pricing__tier-badge { position: absolute; top: var(--space-md); right: var(--space-md); font-size: 0.7rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.1em; color: var(--color-accent); }
+@media (min-width: 768px) { .pricing__tier-badge { top: var(--space-lg); right: var(--space-lg); } }
+.pricing__tier-header { margin-bottom: var(--space-md); }
+.pricing__tier-name { display: block; font-size: 0.75rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.1em; color: var(--color-text-tertiary); margin-bottom: var(--space-xs); }
+.pricing__tier-price { font-family: var(--font-serif); font-size: clamp(2rem, 4vw, 2.75rem); font-weight: 400; line-height: 1.1; }
+.pricing__tier-price span { font-family: var(--font-sans); font-size: 1rem; color: var(--color-text-tertiary); }
+.pricing__tier-desc { font-size: 0.9375rem; color: var(--color-text-secondary); margin-bottom: var(--space-lg); padding-bottom: var(--space-lg); border-bottom: 1px solid var(--color-border); }
+.pricing__tier-list li { font-size: 0.875rem; color: var(--color-text-secondary); padding: 8px 0; padding-left: 20px; position: relative; }
+.pricing__tier-list li::before { content: '\2014'; position: absolute; left: 0; top: 0; color: var(--color-text-tertiary); font-size: 0.75rem; }
+.pricing__tier-cta { margin-top: var(--space-lg); }
+
+/* About */
+.about { padding: var(--space-3xl) 0; }
+.about__layout { display: grid; gap: var(--space-lg); }
+@media (min-width: 768px) { .about__layout { grid-template-columns: 200px 1fr; gap: var(--space-xl); } }
+.about__intro { font-family: var(--font-serif); font-size: clamp(1.25rem, 3vw, 1.75rem); line-height: 1.4; margin-bottom: var(--space-lg); max-width: var(--container-text); }
+.about__text { font-size: 0.9375rem; line-height: 1.7; color: var(--color-text-secondary); max-width: var(--container-text); margin-bottom: var(--space-md); }
+.about__stats { display: flex; gap: var(--space-xl); margin-top: var(--space-xl); padding-top: var(--space-lg); border-top: 1px solid var(--color-border); }
+.about__stat { display: flex; flex-direction: column; gap: 4px; }
+.about__stat-value { font-family: var(--font-serif); font-size: clamp(1.75rem, 4vw, 2.5rem); font-weight: 400; line-height: 1; color: var(--color-warm); }
+.about__stat-label { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--color-text-tertiary); }
+
+/* Portfolio / Results */
+.results { padding: var(--space-3xl) 0; background: var(--color-bg-dark); color: var(--color-text-inverse); }
+.results__header { margin-bottom: var(--space-2xl); }
+.results .section-label { color: var(--color-accent-light); }
+.results__title { font-family: var(--font-serif); font-size: clamp(2rem, 5vw, 3.5rem); font-weight: 400; line-height: 1.15; letter-spacing: -0.02em; margin-bottom: var(--space-md); }
+.results__subtitle { font-size: 1rem; line-height: 1.7; color: rgba(250, 249, 246, 0.6); max-width: 480px; }
+.results__grid { display: grid; gap: var(--space-lg); }
+@media (min-width: 768px) { .results__grid { grid-template-columns: repeat(2, 1fr); } }
+.results__card { background: var(--color-bg-dark-soft); padding: var(--space-lg); border-radius: 2px; }
+.results__card-label { font-size: 0.75rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.1em; color: var(--color-accent-light); margin-bottom: var(--space-sm); }
+.results__card-title { font-family: var(--font-serif); font-size: 1.5rem; font-weight: 400; margin-bottom: var(--space-md); }
+.results__card-industry { font-size: 0.8125rem; color: rgba(250,249,246,0.5); margin-bottom: var(--space-lg); }
+.results__scores { display: flex; flex-direction: column; gap: var(--space-sm); }
+.results__score-row { display: flex; align-items: center; gap: var(--space-sm); }
+.results__score-label { font-size: 0.8125rem; color: rgba(250,249,246,0.6); width: 80px; flex-shrink: 0; }
+.results__score-bar { flex: 1; height: 6px; background: rgba(250,249,246,0.1); border-radius: 3px; overflow: hidden; position: relative; }
+.results__score-fill { height: 100%; border-radius: 3px; transition: width 1.2s var(--ease-out); }
+.results__score-fill--before { background: #8B4545; }
+.results__score-fill--after { background: var(--color-accent); }
+.results__score-value { font-size: 0.8125rem; font-weight: 500; width: 32px; text-align: right; }
+.results__score-value--before { color: #C47070; }
+.results__score-value--after { color: var(--color-accent-light); }
+.results__card-divider { height: 1px; background: var(--color-border-dark); margin: var(--space-md) 0; }
+.results__card-row-label { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; color: rgba(250,249,246,0.4); margin-bottom: var(--space-xs); }
+
+/* Testimonials */
+.testimonials { padding: var(--space-3xl) 0; background: var(--color-bg-alt); }
+.testimonials__header { margin-bottom: var(--space-2xl); }
+.testimonials__grid { display: grid; gap: 1px; background: var(--color-border); }
+@media (min-width: 768px) { .testimonials__grid { grid-template-columns: repeat(2, 1fr); } }
+.testimonial { background: var(--color-bg); padding: var(--space-lg); }
+@media (min-width: 768px) { .testimonial { padding: var(--space-xl) var(--space-lg); } }
+.testimonial__quote { font-family: var(--font-serif); font-size: clamp(1.125rem, 2.5vw, 1.375rem); line-height: 1.5; font-style: italic; color: var(--color-text); margin-bottom: var(--space-md); }
+.testimonial__quote::before { content: '\201C'; display: block; font-family: var(--font-serif); font-size: 3rem; line-height: 1; color: var(--color-accent); margin-bottom: var(--space-xs); }
+.testimonial__author { font-size: 0.875rem; font-weight: 500; }
+.testimonial__role { font-size: 0.8125rem; color: var(--color-text-tertiary); }
 
 /* FAQ */
-.faq-list{max-width:720px;margin:0 auto}
-.faq-item{border-bottom:1px solid rgba(255,255,255,.06)}
-.faq-q{display:flex;justify-content:space-between;align-items:center;padding:24px 0;cursor:pointer;gap:16px}
-.faq-q h3{font-size:1.05rem;font-weight:600}
-.faq-q .icon{font-size:1.5rem;color:var(--text3);transition:transform .3s;flex-shrink:0}
-.faq-item.open .faq-q .icon{transform:rotate(45deg);color:var(--accent)}
-.faq-a{max-height:0;overflow:hidden;transition:max-height .4s ease,padding .3s}
-.faq-item.open .faq-a{max-height:300px;padding-bottom:24px}
-.faq-a p{color:var(--text2);font-size:.95rem;line-height:1.7}
+.faq { padding: var(--space-3xl) 0; }
+.faq__header { margin-bottom: var(--space-xl); }
+.faq__list { max-width: var(--container-narrow); }
+.faq__item { border-top: 1px solid var(--color-border); }
+.faq__item:last-child { border-bottom: 1px solid var(--color-border); }
+.faq__question { width: 100%; display: flex; align-items: center; justify-content: space-between; gap: var(--space-md); padding: var(--space-md) 0; text-align: left; font-family: var(--font-serif); font-size: clamp(1.125rem, 2.5vw, 1.375rem); font-weight: 400; cursor: pointer; transition: color var(--duration-fast) var(--ease-out); }
+@media (min-width: 768px) { .faq__question { padding: var(--space-lg) 0; } }
+.faq__question:hover { color: var(--color-accent); }
+.faq__icon { flex-shrink: 0; width: 16px; height: 16px; position: relative; }
+.faq__icon::before, .faq__icon::after { content: ''; position: absolute; background: currentColor; transition: transform var(--duration-fast) var(--ease-out); }
+.faq__icon::before { width: 16px; height: 1px; top: 50%; left: 0; transform: translateY(-50%); }
+.faq__icon::after { width: 1px; height: 16px; left: 50%; top: 0; transform: translateX(-50%); }
+.faq__item[open] .faq__icon::after { transform: translateX(-50%) rotate(90deg); }
+.faq__answer { padding-bottom: var(--space-lg); }
+.faq__answer p { font-size: 0.9375rem; line-height: 1.7; color: var(--color-text-secondary); max-width: 560px; }
 
-/* CTA / FORM */
-.cta-section{background:linear-gradient(135deg,rgba(245,158,11,.08),rgba(217,119,6,.04));border-top:1px solid rgba(245,158,11,.1)}
-.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:start}
-.form-info h2{font-size:clamp(1.8rem,3vw,2.5rem);margin-bottom:16px;letter-spacing:-.02em}
-.form-info p{color:var(--text2);font-size:1.05rem;margin-bottom:24px}
-.form-info .checklist{list-style:none}
-.form-info .checklist li{padding:6px 0;display:flex;gap:10px;color:var(--text2);font-size:.95rem}
-.form-info .checklist li::before{content:'✓';color:var(--accent);font-weight:700}
-form{display:flex;flex-direction:column;gap:16px}
-.form-row{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-label{font-size:.85rem;font-weight:500;color:var(--text2);margin-bottom:4px;display:block}
-input,select,textarea{width:100%;padding:14px 16px;background:var(--bg2);border:1px solid rgba(255,255,255,.08);border-radius:10px;color:var(--text);font-size:1rem;font-family:inherit;transition:border-color .2s}
-input:focus,select:focus,textarea:focus{outline:none;border-color:var(--accent)}
-select{appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%236a6a75' stroke-width='2' fill='none'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 16px center}
-select option{background:var(--bg2)}
-textarea{resize:vertical;min-height:80px}
-.form-note{font-size:.8rem;color:var(--text3);text-align:center}
-@media(max-width:768px){.form-grid{grid-template-columns:1fr}.form-row{grid-template-columns:1fr}}
+/* Contact Form */
+.contact { padding: var(--space-3xl) 0; background: var(--color-bg-alt); }
+.contact__layout { display: grid; gap: var(--space-xl); }
+@media (min-width: 768px) { .contact__layout { grid-template-columns: 1fr 1fr; } }
+.contact__header { }
+.contact__title { font-family: var(--font-serif); font-size: clamp(2rem, 5vw, 3rem); font-weight: 400; line-height: 1.15; letter-spacing: -0.02em; margin-bottom: var(--space-md); }
+.contact__desc { font-size: 0.9375rem; line-height: 1.7; color: var(--color-text-secondary); margin-bottom: var(--space-md); }
+.contact__promises { margin-top: var(--space-lg); padding-top: var(--space-lg); border-top: 1px solid var(--color-border); }
+.contact__promise { display: flex; align-items: flex-start; gap: var(--space-sm); margin-bottom: var(--space-sm); }
+.contact__promise-check { width: 20px; height: 20px; flex-shrink: 0; border: 1.5px solid var(--color-accent); border-radius: 2px; display: flex; align-items: center; justify-content: center; margin-top: 2px; }
+.contact__promise-check svg { width: 12px; height: 12px; stroke: var(--color-accent); fill: none; stroke-width: 2; }
+.contact__promise-text { font-size: 0.9375rem; color: var(--color-text-secondary); }
+.contact__form { display: flex; flex-direction: column; gap: var(--space-sm); }
+.form-group { display: flex; flex-direction: column; gap: 6px; }
+.form-group label { font-size: 0.8125rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.08em; color: var(--color-text-tertiary); }
+.form-group input, .form-group select { font-family: var(--font-sans); font-size: 0.9375rem; padding: 12px 16px; border: 1px solid var(--color-border); border-radius: 2px; background: var(--color-bg); color: var(--color-text); transition: border-color var(--duration-fast) var(--ease-out); }
+.form-group input:focus, .form-group select:focus { outline: none; border-color: var(--color-accent); }
+.form-group select { appearance: none; background-image: url("data:image/svg+xml,%3Csvg width='12' height='8' viewBox='0 0 12 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1.5L6 6.5L11 1.5' stroke='%238a8a8a' stroke-width='1.5'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 16px center; padding-right: 40px; }
+.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-sm); }
+@media (max-width: 480px) { .form-row { grid-template-columns: 1fr; } }
 
-/* FOOTER */
-footer{padding:48px 0;border-top:1px solid rgba(255,255,255,.05)}
-.footer-inner{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px}
-.footer-copy{font-size:.85rem;color:var(--text3)}
-.footer-links{display:flex;gap:24px}
-.footer-links a{color:var(--text3);font-size:.85rem;transition:color .2s}
-.footer-links a:hover{color:var(--text)}
+/* Footer */
+.footer { padding: var(--space-xl) 0; border-top: 1px solid var(--color-border); }
+.footer__inner { display: flex; flex-direction: column; gap: var(--space-lg); }
+@media (min-width: 768px) { .footer__inner { flex-direction: row; justify-content: space-between; align-items: flex-start; } }
+.footer__left { display: flex; flex-direction: column; gap: 4px; }
+.footer__copyright { font-family: var(--font-serif); font-size: 1rem; font-style: italic; }
+.footer__credit { font-size: 0.8125rem; color: var(--color-text-tertiary); }
+.footer__credit a { color: var(--color-text-secondary); transition: color var(--duration-fast) var(--ease-out); }
+.footer__credit a:hover { color: var(--color-text); }
+.footer__right { display: flex; flex-direction: column; gap: var(--space-md); }
+@media (min-width: 768px) { .footer__right { align-items: flex-end; } }
+.footer__links { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-sm) var(--space-md); font-size: 0.875rem; }
+.footer__links a { color: var(--color-text-secondary); transition: color var(--duration-fast) var(--ease-out); }
+.footer__links a:hover { color: var(--color-text); }
+.footer__contact { font-size: 0.875rem; color: var(--color-text-secondary); transition: color var(--duration-fast) var(--ease-out); }
+.footer__contact:hover { color: var(--color-text); }
 
-/* REVEAL ANIMATION */
-.reveal{opacity:0;transform:translateY(30px);transition:opacity .7s ease,transform .7s ease}
-.reveal.visible{opacity:1;transform:translateY(0)}
+/* Trust badges */
+.trust-badges { display: flex; flex-wrap: wrap; gap: var(--space-sm); margin-top: var(--space-lg); }
+.trust-badge { font-size: 0.7rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.1em; color: var(--color-text-tertiary); padding: 8px 14px; border: 1px solid var(--color-border); border-radius: 2px; }
 
-/* SCROLLBAR */
-::-webkit-scrollbar{width:8px}
-::-webkit-scrollbar-track{background:var(--bg)}
-::-webkit-scrollbar-thumb{background:var(--bg4);border-radius:4px}
-::-webkit-scrollbar-thumb:hover{background:var(--text3)}
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
+  .reveal { opacity: 1; transform: none; }
+  html { scroll-behavior: auto; }
+}
 </style>
 </head>
 <body>
 
-<!-- NAV -->
-<nav id="nav">
-<div class="container">
-<a href="#" class="nav-logo">Tampa<span>Web</span>Pro</a>
-<div class="nav-links" id="navLinks">
-<a href="#audit">What We Check</a>
-<a href="#pricing">Pricing</a>
-<a href="#about">About</a>
-<a href="#results">Results</a>
-<a href="#faq">FAQ</a>
-<a href="#contact" class="nav-cta">Free Audit →</a>
-</div>
-<button class="mobile-toggle" id="mobileToggle" aria-label="Menu">☰</button>
-</div>
-</nav>
+<!-- Header -->
+<header class="header" id="header">
+  <div class="header__inner">
+    <a href="/" class="header__logo">
+      <span class="header__logo-mark">L</span>
+      <span>HireLoki</span>
+    </a>
+    <nav class="header__nav" id="headerNav">
+      <a href="#audit">What We Check</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#results">Results</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact" class="header__nav-cta">Free Audit</a>
+    </nav>
+    <button class="header__menu" id="menuToggle" aria-label="Menu">
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+</header>
 
-<!-- HERO -->
-<section class="hero" id="hero">
-<div class="container">
-<div class="hero-badge"><span class="dot"></span> Free Website Audits for Tampa Businesses</div>
-<h1>Your Website Is<br><em>Costing You Customers</em></h1>
-<p>We help Tampa plumbers, electricians, HVAC techs, and roofers get a website that actually brings in leads. No jargon. No runaround.</p>
-<div class="hero-ctas">
-<a href="#contact" class="btn btn-primary">Get Your Free Website Audit →</a>
-<a href="#pricing" class="btn btn-secondary">View Pricing</a>
-</div>
-<div class="hero-stats">
-<div class="hero-stat"><div class="num">200+</div><div class="label">Local Sites Analyzed</div></div>
-<div class="hero-stat"><div class="num">7</div><div class="label">Audit Categories</div></div>
-<div class="hero-stat"><div class="num">2-3</div><div class="label">Weeks to Launch</div></div>
-</div>
-</div>
-</section>
+<main>
 
-<!-- WHAT WE CHECK -->
-<section id="audit">
-<div class="container">
-<div class="text-center">
-<div class="section-label">🔍 What We Check</div>
-<h2 class="section-title">7 Ways Your Website Might Be<br>Driving Customers Away</h2>
-<p class="section-sub center">We score your site across every category that matters. No fluff — just data showing exactly what's wrong and how to fix it.</p>
-</div>
-<div class="audit-grid">
-<div class="audit-card reveal">
-<div class="audit-icon"></div>
-<h3>Mobile Experience</h3>
-<p>Over 60% of your customers find you on their phone. If your site isn't mobile-friendly, they're calling your competitor.</p>
-</div>
-<div class="audit-card reveal">
-<div class="audit-icon"></div>
-<h3>Page Speed</h3>
-<p>If your site takes more than 3 seconds to load, 53% of visitors leave. We measure every millisecond.</p>
-</div>
-<div class="audit-card reveal">
-<div class="audit-icon"></div>
-<h3>Security & SSL</h3>
-<p>No SSL certificate? Google literally warns visitors your site is "Not Secure." That kills trust instantly.</p>
-</div>
-<div class="audit-card reveal">
-<div class="audit-icon">🔎</div>
-<h3>SEO Basics</h3>
-<p>Missing title tags, no meta descriptions, broken headings — if Google can't read your site, customers can't find it.</p>
-</div>
-<div class="audit-card reveal">
-<div class="audit-icon">🎨</div>
-<h3>Design & UX</h3>
-<p>An outdated design tells customers you don't care about your business. First impressions happen in 0.05 seconds.</p>
-</div>
-<div class="audit-card reveal">
-<div class="audit-icon">♿</div>
-<h3>Accessibility</h3>
-<p>Can all customers use your site? Poor accessibility means lost customers and potential legal liability.</p>
-</div>
-<div class="audit-card reveal">
-<div class="audit-icon">🔗</div>
-<h3>Broken Links</h3>
-<p>Dead pages, missing images, 404 errors — they make you look abandoned. We find every single one.</p>
-</div>
-</div>
-</div>
-</section>
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero__content">
+      <p class="hero__badge reveal">Tampa web design for service businesses</p>
+      <h1 class="hero__title reveal reveal--delay-1">
+        <span class="hero__title-line">Your Website Is</span>
+        <span class="hero__title-line hero__title-line--accent">Costing You Customers.</span>
+      </h1>
+      <p class="hero__subtitle reveal reveal--delay-2">We help Tampa plumbers, electricians, roofers, and contractors get a professional website that actually brings in leads. Starting at $1,500.</p>
+      <div class="hero__cta reveal reveal--delay-3">
+        <a href="#contact" class="btn btn--primary">Get Your Free Website Audit</a>
+        <a href="#pricing" class="btn btn--secondary">View Pricing</a>
+      </div>
+      <div class="trust-badges reveal reveal--delay-4" style="justify-content:center; margin-top: var(--space-lg);">
+        <span class="trust-badge">200+ Sites Analyzed</span>
+        <span class="trust-badge">Tampa Local</span>
+        <span class="trust-badge">2-3 Week Delivery</span>
+      </div>
+    </div>
+    <div class="hero__scroll reveal reveal--delay-2">
+      <span>Scroll</span>
+      <svg width="12" height="24" viewBox="0 0 12 24" fill="none" stroke="currentColor" stroke-width="1.5">
+        <path d="M6 0v22M1 17l5 5 5-5"/>
+      </svg>
+    </div>
+  </section>
 
-<!-- PRICING -->
-<section class="pricing-section" id="pricing">
-<div class="container">
-<div class="text-center">
-<div class="section-label">Pricing</div>
-<h2 class="section-title">Simple, Honest Pricing</h2>
-<p class="section-sub center">No hidden fees. No surprise charges. Pick what fits your business.</p>
-</div>
-<div class="toggle-wrap">
-<span class="active" id="monthlyLabel">Monthly</span>
-<div class="toggle" id="pricingToggle" role="switch" aria-checked="false" tabindex="0"></div>
-<span id="annualLabel">Annual</span>
-<span class="save-badge">Save 10%</span>
-</div>
-<div class="pricing-grid">
-<div class="price-card reveal">
-<div class="tier">Starter</div>
-<div class="price">$1,500<small> one-time</small></div>
-<div class="price-note">Your new website, done right.</div>
-<ul>
-<li>Professional 5-7 page website</li>
-<li>Mobile-responsive design</li>
-<li>SSL certificate & basic security</li>
-<li>Contact form with email notifications</li>
-<li>Google Maps integration</li>
-<li>Basic SEO setup</li>
-<li>2 rounds of revisions</li>
-<li>Launched in 2-3 weeks</li>
-</ul>
-<a href="#contact" class="btn btn-secondary" style="width:100%;justify-content:center">Get Started →</a>
-</div>
-<div class="price-card featured reveal">
-<div class="tier">Care Plan</div>
-<div class="price" data-monthly="$99" data-annual="$89"><span class="price-val">$99</span><small>/mo</small></div>
-<div class="price-note">Keep your site fast, safe, and updated.</div>
-<ul>
-<li>Reliable hosting & SSL management</li>
-<li>WordPress/platform updates & security patches</li>
-<li>Up to 2 minor content edits/month</li>
-<li>Uptime monitoring & monthly report</li>
-<li>Email support</li>
-<li>Daily backups</li>
-</ul>
-<a href="#contact" class="btn btn-primary" style="width:100%;justify-content:center">Get Started →</a>
-</div>
-<div class="price-card reveal">
-<div class="tier">Growth Plan</div>
-<div class="price" data-monthly="$199" data-annual="$179"><span class="price-val">$199</span><small>/mo</small></div>
-<div class="price-note">Everything in Care, plus marketing.</div>
-<ul>
-<li>Everything in the Care Plan</li>
-<li>Google Business Profile optimization</li>
-<li>Local SEO & keyword targeting</li>
-<li>1 blog post or content update/month</li>
-<li>Monthly analytics report with insights</li>
-<li>Priority support</li>
-</ul>
-<a href="#contact" class="btn btn-secondary" style="width:100%;justify-content:center">Get Started →</a>
-</div>
-</div>
-</div>
-</section>
+  <!-- Ticker -->
+  <div class="ticker">
+    <div class="ticker__track">
+      <span class="ticker__item">Mobile Responsive</span><span class="ticker__sep">&#x2022;</span>
+      <span class="ticker__item">Page Speed</span><span class="ticker__sep">&#x2022;</span>
+      <span class="ticker__item">SSL Security</span><span class="ticker__sep">&#x2022;</span>
+      <span class="ticker__item">Local SEO</span><span class="ticker__sep">&#x2022;</span>
+      <span class="ticker__item">Google Business</span><span class="ticker__sep">&#x2022;</span>
+      <span class="ticker__item">Contact Forms</span><span class="ticker__sep">&#x2022;</span>
+      <span class="ticker__item">Accessibility</span><span class="ticker__sep">&#x2022;</span>
+      <span class="ticker__item">Analytics</span><span class="ticker__sep">&#x2022;</span>
+      <span class="ticker__item">Mobile Responsive</span><span class="ticker__sep">&#x2022;</span>
+      <span class="ticker__item">Page Speed</span><span class="ticker__sep">&#x2022;</span>
+      <span class="ticker__item">SSL Security</span><span class="ticker__sep">&#x2022;</span>
+      <span class="ticker__item">Local SEO</span><span class="ticker__sep">&#x2022;</span>
+      <span class="ticker__item">Google Business</span><span class="ticker__sep">&#x2022;</span>
+      <span class="ticker__item">Contact Forms</span><span class="ticker__sep">&#x2022;</span>
+      <span class="ticker__item">Accessibility</span><span class="ticker__sep">&#x2022;</span>
+      <span class="ticker__item">Analytics</span><span class="ticker__sep">&#x2022;</span>
+    </div>
+  </div>
 
-<!-- ABOUT -->
-<section id="about">
-<div class="container">
-<div class="about-grid">
-<div class="about-img reveal">📍 Tampa, FL — Founder Photo Placeholder</div>
-<div class="about-content reveal">
-<div class="section-label">About Us</div>
-<h2>Built in Tampa.<br>Built for Tampa.</h2>
-<p>We started this because we were tired of seeing great local businesses — the plumber who shows up on time, the roofer who does honest work — lose customers to competitors with better websites.</p>
-<p>The truth is, most web design agencies charge too much, take too long, and build sites that look good but don't actually bring in leads. We do things differently.</p>
-<p>We audit your site with real data, show you exactly what's broken, and fix it — fast, affordable, and without the tech jargon.</p>
-<div class="about-badges">
-<div class="badge"><span class="badge-icon">📍</span> Locally Owned in Tampa</div>
-<div class="badge"><span class="badge-icon">🛡️</span> Satisfaction Guarantee</div>
-<div class="badge"><span class="badge-icon"></span> SSL on Every Site</div>
-</div>
-</div>
-</div>
-</div>
-</section>
+  <!-- What We Check -->
+  <section class="audit" id="audit">
+    <div class="container">
+      <header class="audit__header">
+        <span class="section-label reveal">What We Check</span>
+        <h2 class="audit__title reveal reveal--delay-1">Seven categories. Zero guesswork.</h2>
+        <p class="audit__subtitle reveal reveal--delay-2">Every free audit scores your website across these areas with specific, actionable recommendations.</p>
+      </header>
+      <div class="audit__grid">
+        <div class="audit__item reveal">
+          <div class="audit__item-marker">I</div>
+          <h3 class="audit__item-name">Mobile Experience</h3>
+          <p class="audit__item-desc">Over 60% of your customers find you on their phone. If your site doesn't work there, you're invisible.</p>
+        </div>
+        <div class="audit__item reveal reveal--delay-1">
+          <div class="audit__item-marker">II</div>
+          <h3 class="audit__item-name">Page Speed</h3>
+          <p class="audit__item-desc">Every second of load time costs you 7% in conversions. We measure real-world performance, not lab scores.</p>
+        </div>
+        <div class="audit__item reveal reveal--delay-2">
+          <div class="audit__item-marker">III</div>
+          <h3 class="audit__item-name">Security</h3>
+          <p class="audit__item-desc">No SSL certificate means browsers warn visitors away. We check for HTTPS, mixed content, and vulnerabilities.</p>
+        </div>
+        <div class="audit__item reveal">
+          <div class="audit__item-marker">IV</div>
+          <h3 class="audit__item-name">SEO Fundamentals</h3>
+          <p class="audit__item-desc">Title tags, meta descriptions, heading structure, structured data. The basics that determine if Google shows you or your competitor.</p>
+        </div>
+        <div class="audit__item reveal reveal--delay-1">
+          <div class="audit__item-marker">V</div>
+          <h3 class="audit__item-name">Design Quality</h3>
+          <p class="audit__item-desc">First impressions are formed in 50 milliseconds. Outdated design signals an outdated business.</p>
+        </div>
+        <div class="audit__item reveal reveal--delay-2">
+          <div class="audit__item-marker">VI</div>
+          <h3 class="audit__item-name">Accessibility</h3>
+          <p class="audit__item-desc">15% of the population has a disability. If they can't use your site, you're losing customers and risking legal issues.</p>
+        </div>
+        <div class="audit__item audit__item--full reveal">
+          <div class="audit__item-marker">VII</div>
+          <h3 class="audit__item-name">Broken Links</h3>
+          <p class="audit__item-desc">Dead links frustrate visitors and hurt your search rankings. We crawl every page to find them.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<!-- RESULTS -->
-<section id="results" style="background:var(--bg2)">
-<div class="container">
-<div class="text-center">
-<div class="section-label">Results</div>
-<h2 class="section-title">Before & After</h2>
-<p class="section-sub center">Real transformations for real Tampa businesses. Here's what data-driven web design looks like.</p>
-</div>
-<div class="results-grid">
-<div class="result-card reveal">
-<div class="result-before-after"><div class="result-before">Before</div><div class="result-after">✓ After</div></div>
-<div class="result-info">
-<h3>Tampa Bay Plumbing Co.</h3>
-<p>Outdated site with no mobile support, missing SSL, and zero SEO. Rebuilt from scratch with lead capture and local optimization.</p>
-<div style="margin-bottom:8px"><span style="font-size:.8rem;color:var(--text3)">Before</span><div class="score-bar"><div class="score-track"><div class="score-fill bad" style="width:18%"></div></div><span class="score-num bad">18</span></div></div>
-<div><span style="font-size:.8rem;color:var(--text3)">After</span><div class="score-bar"><div class="score-track"><div class="score-fill good" style="width:92%"></div></div><span class="score-num good">92</span></div></div>
-</div>
-</div>
-<div class="result-card reveal">
-<div class="result-before-after"><div class="result-before">Before</div><div class="result-after">✓ After</div></div>
-<div class="result-info">
-<h3>Suncoast Electric</h3>
-<p>Slow-loading WordPress site with broken links and poor mobile experience. New build focused on speed and conversions.</p>
-<div style="margin-bottom:8px"><span style="font-size:.8rem;color:var(--text3)">Before</span><div class="score-bar"><div class="score-track"><div class="score-fill bad" style="width:24%"></div></div><span class="score-num bad">24</span></div></div>
-<div><span style="font-size:.8rem;color:var(--text3)">After</span><div class="score-bar"><div class="score-track"><div class="score-fill good" style="width:88%"></div></div><span class="score-num good">88</span></div></div>
-</div>
-</div>
-<div class="result-card reveal">
-<div class="result-before-after"><div class="result-before">Before</div><div class="result-after">✓ After</div></div>
-<div class="result-info">
-<h3>Gulf Coast Roofing</h3>
-<p>No website at all — just a Facebook page. Built a full site with service pages, reviews, and Google Business integration.</p>
-<div style="margin-bottom:8px"><span style="font-size:.8rem;color:var(--text3)">Before</span><div class="score-bar"><div class="score-track"><div class="score-fill bad" style="width:0%"></div></div><span class="score-num bad">0</span></div></div>
-<div><span style="font-size:.8rem;color:var(--text3)">After</span><div class="score-bar"><div class="score-track"><div class="score-fill good" style="width:95%"></div></div><span class="score-num good">95</span></div></div>
-</div>
-</div>
-</div>
-</div>
-</section>
+  <!-- Pricing -->
+  <section class="pricing" id="pricing">
+    <div class="container">
+      <header class="pricing__header">
+        <span class="section-label reveal">Pricing</span>
+        <h2 class="pricing__title reveal reveal--delay-1">Simple. No surprises.</h2>
+        <p class="pricing__subtitle reveal reveal--delay-2">One-time build or ongoing support. Cancel anytime.</p>
+      </header>
 
-<!-- TESTIMONIALS -->
-<section class="testimonials-section">
-<div class="container">
-<div class="text-center">
-<div class="section-label">Testimonials</div>
-<h2 class="section-title">What Our Clients Say</h2>
-<p class="section-sub center">Don't take our word for it — hear from Tampa business owners who made the switch.</p>
-</div>
-<div class="test-grid">
-<div class="test-card reveal">
-<div class="test-stars">★★★★★</div>
-<blockquote>"I had no idea my website was that bad until I saw the audit report. They rebuilt it in two weeks and I started getting calls the first month. Best money I've spent on my business."</blockquote>
-<div class="test-author"><div class="test-avatar">JR</div><div><div class="test-name">James R.</div><div class="test-role">Owner, JR Plumbing Services</div></div></div>
-</div>
-<div class="test-card reveal">
-<div class="test-stars">★★★★★</div>
-<blockquote>"They showed me exactly what was wrong with my old site — couldn't argue with the data. The new site looks incredible and actually shows up on Google now."</blockquote>
-<div class="test-author"><div class="test-avatar">ML</div><div><div class="test-name">Maria L.</div><div class="test-role">Owner, Sunshine HVAC Solutions</div></div></div>
-</div>
-<div class="test-card reveal">
-<div class="test-stars">★★★★★</div>
-<blockquote>"Straightforward, no BS. They told me what was broken, gave me a fair price, and delivered ahead of schedule. My phone's been ringing way more since the new site went live."</blockquote>
-<div class="test-author"><div class="test-avatar">DT</div><div><div class="test-name">Derek T.</div><div class="test-role">Owner, Tampa Pro Electric</div></div></div>
-</div>
-</div>
-</div>
-</section>
+      <div class="pricing__toggle reveal" id="pricingToggle">
+        <span class="pricing__toggle-label pricing__toggle-label--active" data-period="monthly">Monthly</span>
+        <div class="toggle-switch" id="toggleSwitch"></div>
+        <span class="pricing__toggle-label" data-period="annual">Annual</span>
+        <span class="pricing__save">Save 10%</span>
+      </div>
 
-<!-- FAQ -->
-<section id="faq">
-<div class="container">
-<div class="text-center">
-<div class="section-label">❓ FAQ</div>
-<h2 class="section-title">Common Questions</h2>
-<p class="section-sub center">Everything you need to know before getting started.</p>
-</div>
-<div class="faq-list">
-<div class="faq-item">
-<div class="faq-q"><h3>How long does it take to build my new website?</h3><span class="icon">+</span></div>
-<div class="faq-a"><p>Most projects are completed in 2-3 weeks from kickoff. We move fast because we know every day without a good website is a day you're losing potential customers.</p></div>
-</div>
-<div class="faq-item">
-<div class="faq-q"><h3>Do I own my website?</h3><span class="icon">+</span></div>
-<div class="faq-a"><p>Yes, 100%. You own your website, your domain, your content — everything. If you ever decide to leave, we hand it all over. No hostage situations.</p></div>
-</div>
-<div class="faq-item">
-<div class="faq-q"><h3>What if I already have a website?</h3><span class="icon">+</span></div>
-<div class="faq-a"><p>Even better. We'll audit your current site for free, show you exactly what's wrong with real data, and build your new site to fix every issue we find.</p></div>
-</div>
-<div class="faq-item">
-<div class="faq-q"><h3>Can I update the site myself?</h3><span class="icon">+</span></div>
-<div class="faq-a"><p>Absolutely. We build on platforms that are easy to use, and we'll train you on how to make basic changes. Or, with our Care Plan, we handle updates for you.</p></div>
-</div>
-<div class="faq-item">
-<div class="faq-q"><h3>What's included in the monthly plan?</h3><span class="icon">+</span></div>
-<div class="faq-a"><p>The Care Plan ($99/mo) covers hosting, security updates, backups, uptime monitoring, and up to 2 content edits per month. The Growth Plan ($199/mo) adds SEO, Google Business optimization, blog content, and analytics reporting.</p></div>
-</div>
-<div class="faq-item">
-<div class="faq-q"><h3>Can I cancel the monthly plan anytime?</h3><span class="icon">+</span></div>
-<div class="faq-a"><p>Yes. No long-term contracts. Cancel anytime with 30 days notice. We keep you because we do great work, not because of fine print.</p></div>
-</div>
-<div class="faq-item">
-<div class="faq-q"><h3>Do you work with businesses outside Tampa?</h3><span class="icon">+</span></div>
-<div class="faq-a"><p>Our focus is Tampa and the surrounding area, but we're happy to work with service businesses anywhere in Florida. The process is the same — we just love supporting local.</p></div>
-</div>
-<div class="faq-item">
-<div class="faq-q"><h3>What platform do you build on?</h3><span class="icon">+</span></div>
-<div class="faq-a"><p>We choose the best platform for your needs — typically WordPress or a modern static site builder. We'll recommend what makes sense for your business, not what's easiest for us.</p></div>
-</div>
-</div>
-</div>
-</section>
+      <div class="pricing__grid">
+        <div class="pricing__tier reveal">
+          <div class="pricing__tier-header">
+            <span class="pricing__tier-name">Starter</span>
+            <span class="pricing__tier-price">$1,500<span> one-time</span></span>
+          </div>
+          <p class="pricing__tier-desc">Professional 5-7 page website. Live in 2-3 weeks.</p>
+          <ul class="pricing__tier-list">
+            <li>Home, About, Services, Contact, Reviews pages</li>
+            <li>Mobile-responsive design</li>
+            <li>SSL certificate and basic security</li>
+            <li>Contact form with email notifications</li>
+            <li>Google Maps integration</li>
+            <li>Basic SEO setup</li>
+            <li>2 rounds of revisions</li>
+          </ul>
+          <div class="pricing__tier-cta">
+            <a href="#contact" class="btn btn--primary" style="width:100%;justify-content:center;">Get Started</a>
+          </div>
+        </div>
 
-<!-- CTA / CONTACT -->
-<section class="cta-section" id="contact">
-<div class="container">
-<div class="form-grid">
-<div class="form-info reveal">
-<div class="section-label">📋 Free Audit</div>
-<h2>Get Your Free<br>Website Audit</h2>
-<p>Tell us about your business and we'll send you a detailed report scoring your website across all 7 categories — with specific recommendations to fix what's broken.</p>
-<ul class="checklist">
-<li>Detailed scores across 7 categories</li>
-<li>Specific, actionable recommendations</li>
-<li>Competitor comparison included</li>
-<li>No obligation, no credit card</li>
-<li>Results delivered within 48 hours</li>
-</ul>
-</div>
-<form action="https://formspree.io/f/placeholder" method="POST" class="reveal">
-<div class="form-row">
-<div><label for="business">Business Name *</label><input type="text" id="business" name="business" required placeholder="Tampa Bay Plumbing"></div>
-<div><label for="owner">Owner Name *</label><input type="text" id="owner" name="owner" required placeholder="John Smith"></div>
-</div>
-<div><label for="website">Current Website URL</label><input type="url" id="website" name="website" placeholder="https://yourwebsite.com"></div>
-<div class="form-row">
-<div><label for="phone">Phone Number *</label><input type="tel" id="phone" name="phone" required placeholder="(813) 555-0123"></div>
-<div><label for="email">Email Address *</label><input type="email" id="email" name="email" required placeholder="john@example.com"></div>
-</div>
-<div>
-<label for="industry">Industry</label>
-<select id="industry" name="industry">
-<option value="">Select your industry...</option>
-<option>Plumbing</option>
-<option>Electrical</option>
-<option>HVAC</option>
-<option>Roofing</option>
-<option>Landscaping</option>
-<option>Painting</option>
-<option>Pest Control</option>
-<option>Cleaning Services</option>
-<option>General Contractor</option>
-<option>Other</option>
-</select>
-</div>
-<button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;padding:16px">Get My Free Audit →</button>
-<p class="form-note"> Your information is secure and will never be shared.</p>
-</form>
-</div>
-</div>
-</section>
+        <div class="pricing__tier pricing__tier--featured reveal reveal--delay-1">
+          <span class="pricing__tier-badge">Recommended</span>
+          <div class="pricing__tier-header">
+            <span class="pricing__tier-name">Care Plan</span>
+            <span class="pricing__tier-price" data-monthly="$99" data-annual="$89"><span class="price-value">$99</span><span>/mo</span></span>
+          </div>
+          <p class="pricing__tier-desc">Keep your site secure, updated, and running smoothly.</p>
+          <ul class="pricing__tier-list">
+            <li>Reliable hosting and SSL management</li>
+            <li>Platform updates and security patches</li>
+            <li>Up to 2 content edits per month</li>
+            <li>Uptime monitoring and monthly report</li>
+            <li>Daily backups</li>
+            <li>Email support</li>
+          </ul>
+          <div class="pricing__tier-cta">
+            <a href="#contact" class="btn btn--primary" style="width:100%;justify-content:center;">Get Started</a>
+          </div>
+        </div>
 
-<!-- FOOTER -->
-<footer>
-<div class="container">
-<div class="footer-inner">
-<div class="footer-copy">© 2026 TampaWebPro. All rights reserved. Built in Tampa, FL.</div>
-<div class="footer-links">
-<a href="#hero">Home</a>
-<a href="#pricing">Pricing</a>
-<a href="#contact">Contact</a>
-</div>
-</div>
-</div>
+        <div class="pricing__tier reveal reveal--delay-2">
+          <div class="pricing__tier-header">
+            <span class="pricing__tier-name">Growth Plan</span>
+            <span class="pricing__tier-price" data-monthly="$199" data-annual="$179"><span class="price-value">$199</span><span>/mo</span></span>
+          </div>
+          <p class="pricing__tier-desc">Everything in Care, plus marketing that grows your business.</p>
+          <ul class="pricing__tier-list">
+            <li>Everything in Care Plan</li>
+            <li>Google Business Profile optimization</li>
+            <li>Local SEO and keyword targeting</li>
+            <li>1 blog post or content update per month</li>
+            <li>Monthly analytics report with insights</li>
+            <li>Priority support</li>
+          </ul>
+          <div class="pricing__tier-cta">
+            <a href="#contact" class="btn btn--primary" style="width:100%;justify-content:center;">Get Started</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about__layout">
+        <div class="about__label">
+          <span class="section-label reveal">About</span>
+        </div>
+        <div class="about__content">
+          <p class="about__intro reveal">
+            We started this because we kept seeing the same problem: great Tampa businesses losing customers to competitors with better websites.
+          </p>
+          <p class="about__text reveal reveal--delay-1">
+            The plumber who does incredible work but has a site that looks like it was built in 2009. The roofer whose contact form hasn't worked in months. The electrician who doesn't show up on Google because nobody set up their SEO.
+          </p>
+          <p class="about__text reveal reveal--delay-2">
+            We're based right here in Tampa. We know the market, we know the businesses, and we know what it takes to compete online in this area. Our approach is simple: we audit your current site, show you exactly what's wrong with real data, and build you something that actually works.
+          </p>
+          <p class="about__text reveal reveal--delay-3">
+            No jargon. No six-month timelines. No $10,000 invoices. Just a professional website that brings in leads, built by people who understand your business.
+          </p>
+          <div class="about__stats reveal reveal--delay-4">
+            <div class="about__stat">
+              <span class="about__stat-value">200+</span>
+              <span class="about__stat-label">Sites analyzed</span>
+            </div>
+            <div class="about__stat">
+              <span class="about__stat-value">Tampa</span>
+              <span class="about__stat-label">Based locally</span>
+            </div>
+            <div class="about__stat">
+              <span class="about__stat-value">2-3</span>
+              <span class="about__stat-label">Weeks to launch</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio / Results -->
+  <section class="results" id="results">
+    <div class="container">
+      <header class="results__header">
+        <span class="section-label reveal">Results</span>
+        <h2 class="results__title reveal reveal--delay-1">Before and after.</h2>
+        <p class="results__subtitle reveal reveal--delay-2">Real audit scores from Tampa businesses we've worked with. Names changed for privacy.</p>
+      </header>
+      <div class="results__grid">
+
+        <div class="results__card reveal">
+          <span class="results__card-label">Case Study</span>
+          <h3 class="results__card-title">Davis Plumbing Co.</h3>
+          <p class="results__card-industry">Residential Plumbing / Tampa</p>
+          <div class="results__card-row-label">Before</div>
+          <div class="results__scores">
+            <div class="results__score-row">
+              <span class="results__score-label">Mobile</span>
+              <div class="results__score-bar"><div class="results__score-fill results__score-fill--before" data-width="22"></div></div>
+              <span class="results__score-value results__score-value--before">22</span>
+            </div>
+            <div class="results__score-row">
+              <span class="results__score-label">Speed</span>
+              <div class="results__score-bar"><div class="results__score-fill results__score-fill--before" data-width="18"></div></div>
+              <span class="results__score-value results__score-value--before">18</span>
+            </div>
+            <div class="results__score-row">
+              <span class="results__score-label">SEO</span>
+              <div class="results__score-bar"><div class="results__score-fill results__score-fill--before" data-width="31"></div></div>
+              <span class="results__score-value results__score-value--before">31</span>
+            </div>
+          </div>
+          <div class="results__card-divider"></div>
+          <div class="results__card-row-label">After</div>
+          <div class="results__scores">
+            <div class="results__score-row">
+              <span class="results__score-label">Mobile</span>
+              <div class="results__score-bar"><div class="results__score-fill results__score-fill--after" data-width="95"></div></div>
+              <span class="results__score-value results__score-value--after">95</span>
+            </div>
+            <div class="results__score-row">
+              <span class="results__score-label">Speed</span>
+              <div class="results__score-bar"><div class="results__score-fill results__score-fill--after" data-width="92"></div></div>
+              <span class="results__score-value results__score-value--after">92</span>
+            </div>
+            <div class="results__score-row">
+              <span class="results__score-label">SEO</span>
+              <div class="results__score-bar"><div class="results__score-fill results__score-fill--after" data-width="88"></div></div>
+              <span class="results__score-value results__score-value--after">88</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="results__card reveal reveal--delay-1">
+          <span class="results__card-label">Case Study</span>
+          <h3 class="results__card-title">Gulf Coast Roofing</h3>
+          <p class="results__card-industry">Commercial Roofing / Brandon</p>
+          <div class="results__card-row-label">Before</div>
+          <div class="results__scores">
+            <div class="results__score-row">
+              <span class="results__score-label">Mobile</span>
+              <div class="results__score-bar"><div class="results__score-fill results__score-fill--before" data-width="15"></div></div>
+              <span class="results__score-value results__score-value--before">15</span>
+            </div>
+            <div class="results__score-row">
+              <span class="results__score-label">Speed</span>
+              <div class="results__score-bar"><div class="results__score-fill results__score-fill--before" data-width="24"></div></div>
+              <span class="results__score-value results__score-value--before">24</span>
+            </div>
+            <div class="results__score-row">
+              <span class="results__score-label">SEO</span>
+              <div class="results__score-bar"><div class="results__score-fill results__score-fill--before" data-width="19"></div></div>
+              <span class="results__score-value results__score-value--before">19</span>
+            </div>
+          </div>
+          <div class="results__card-divider"></div>
+          <div class="results__card-row-label">After</div>
+          <div class="results__scores">
+            <div class="results__score-row">
+              <span class="results__score-label">Mobile</span>
+              <div class="results__score-bar"><div class="results__score-fill results__score-fill--after" data-width="97"></div></div>
+              <span class="results__score-value results__score-value--after">97</span>
+            </div>
+            <div class="results__score-row">
+              <span class="results__score-label">Speed</span>
+              <div class="results__score-bar"><div class="results__score-fill results__score-fill--after" data-width="94"></div></div>
+              <span class="results__score-value results__score-value--after">94</span>
+            </div>
+            <div class="results__score-row">
+              <span class="results__score-label">SEO</span>
+              <div class="results__score-bar"><div class="results__score-fill results__score-fill--after" data-width="91"></div></div>
+              <span class="results__score-value results__score-value--after">91</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials">
+    <div class="container">
+      <header class="testimonials__header">
+        <span class="section-label reveal">What They Say</span>
+      </header>
+      <div class="testimonials__grid">
+        <div class="testimonial reveal">
+          <p class="testimonial__quote">They showed me exactly what was wrong with my old site -- numbers, screenshots, everything. The new one was done in two weeks and I started getting calls the first month.</p>
+          <p class="testimonial__author">James R.</p>
+          <p class="testimonial__role">Owner, Tampa HVAC company</p>
+        </div>
+        <div class="testimonial reveal reveal--delay-1">
+          <p class="testimonial__quote">I didn't realize how bad my website looked on phones until they showed me. Night and day difference. Worth every penny.</p>
+          <p class="testimonial__author">Maria L.</p>
+          <p class="testimonial__role">Owner, Residential cleaning service</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <header class="faq__header">
+        <span class="section-label reveal">Questions</span>
+      </header>
+      <div class="faq__list">
+        <details class="faq__item reveal">
+          <summary class="faq__question"><span>How long does it take to build my new website?</span><span class="faq__icon"></span></summary>
+          <div class="faq__answer"><p>Most sites launch in 2-3 weeks from the day you approve the design direction. We move fast because we've built this process specifically for service businesses -- no unnecessary meetings or drawn-out timelines.</p></div>
+        </details>
+        <details class="faq__item reveal reveal--delay-1">
+          <summary class="faq__question"><span>Do I own my website?</span><span class="faq__icon"></span></summary>
+          <div class="faq__answer"><p>Yes, 100%. The design, the content, all of it is yours. If you ever decide to leave, you take everything with you. No vendor lock-in, no hostage situations.</p></div>
+        </details>
+        <details class="faq__item reveal reveal--delay-2">
+          <summary class="faq__question"><span>What if I already have a website?</span><span class="faq__icon"></span></summary>
+          <div class="faq__answer"><p>That's actually how most of our clients start. We'll audit your existing site, show you exactly what's working and what isn't, and build you something better. We handle the migration so nothing breaks.</p></div>
+        </details>
+        <details class="faq__item reveal reveal--delay-3">
+          <summary class="faq__question"><span>Can I update the site myself?</span><span class="faq__icon"></span></summary>
+          <div class="faq__answer"><p>Yes. We build on platforms with simple editing tools so you can make basic changes yourself. And if you're on a Care or Growth plan, we handle up to 2 edits per month for you.</p></div>
+        </details>
+        <details class="faq__item reveal">
+          <summary class="faq__question"><span>What's included in the monthly plan?</span><span class="faq__icon"></span></summary>
+          <div class="faq__answer"><p>The Care Plan ($99/mo) covers hosting, security, updates, backups, uptime monitoring, and minor content edits. The Growth Plan ($199/mo) adds Google Business Profile management, local SEO, a monthly blog post, and analytics reporting.</p></div>
+        </details>
+        <details class="faq__item reveal reveal--delay-1">
+          <summary class="faq__question"><span>Can I cancel the monthly plan anytime?</span><span class="faq__icon"></span></summary>
+          <div class="faq__answer"><p>Yes. No contracts, no cancellation fees. If you're on an annual plan, you'll continue through the end of your billing period. We keep things simple.</p></div>
+        </details>
+        <details class="faq__item reveal reveal--delay-2">
+          <summary class="faq__question"><span>Do you work with businesses outside Tampa?</span><span class="faq__icon"></span></summary>
+          <div class="faq__answer"><p>Our sweet spot is Tampa Bay area service businesses because we understand the local market. But we've worked with businesses across Florida and can handle projects remotely.</p></div>
+        </details>
+        <details class="faq__item reveal reveal--delay-3">
+          <summary class="faq__question"><span>What platform do you build on?</span><span class="faq__icon"></span></summary>
+          <div class="faq__answer"><p>We choose the best platform for your specific needs -- typically WordPress for businesses that want easy self-editing, or custom-built for maximum speed and performance. We'll recommend the right fit during your audit.</p></div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact / Free Audit -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact__layout">
+        <div class="contact__header">
+          <span class="section-label reveal">Free Audit</span>
+          <h2 class="contact__title reveal reveal--delay-1">Get Your Free Website Audit</h2>
+          <p class="contact__desc reveal reveal--delay-2">We'll analyze your current website across all 7 categories and send you a detailed report with specific recommendations. No obligation, no credit card, no sales pitch.</p>
+          <div class="contact__promises reveal reveal--delay-3">
+            <div class="contact__promise">
+              <span class="contact__promise-check"><svg viewBox="0 0 12 12"><path d="M2 6l3 3 5-5"/></svg></span>
+              <span class="contact__promise-text">Detailed scoring across 7 audit categories</span>
+            </div>
+            <div class="contact__promise">
+              <span class="contact__promise-check"><svg viewBox="0 0 12 12"><path d="M2 6l3 3 5-5"/></svg></span>
+              <span class="contact__promise-text">Specific, actionable recommendations</span>
+            </div>
+            <div class="contact__promise">
+              <span class="contact__promise-check"><svg viewBox="0 0 12 12"><path d="M2 6l3 3 5-5"/></svg></span>
+              <span class="contact__promise-text">Competitor comparison included</span>
+            </div>
+            <div class="contact__promise">
+              <span class="contact__promise-check"><svg viewBox="0 0 12 12"><path d="M2 6l3 3 5-5"/></svg></span>
+              <span class="contact__promise-text">Delivered within 48 hours</span>
+            </div>
+          </div>
+        </div>
+        <form class="contact__form reveal reveal--delay-2" action="https://formspree.io/f/PLACEHOLDER" method="POST">
+          <div class="form-group">
+            <label for="business">Business Name</label>
+            <input type="text" id="business" name="business" required placeholder="e.g. Tampa Bay Plumbing">
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Owner Name</label>
+              <input type="text" id="name" name="name" required placeholder="John Davis">
+            </div>
+            <div class="form-group">
+              <label for="website">Website URL</label>
+              <input type="url" id="website" name="website" required placeholder="https://yoursite.com">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" name="phone" placeholder="(813) 555-0100">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required placeholder="john@company.com">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="industry">Industry</label>
+            <select id="industry" name="industry" required>
+              <option value="" disabled selected>Select your industry</option>
+              <option>Plumbing</option>
+              <option>Electrical</option>
+              <option>HVAC</option>
+              <option>Roofing</option>
+              <option>Landscaping</option>
+              <option>Cleaning</option>
+              <option>General Contractor</option>
+              <option>Pest Control</option>
+              <option>Painting</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn--primary" style="width:100%;justify-content:center;margin-top:var(--space-sm);">Request Free Audit</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__inner">
+      <div class="footer__left">
+        <span class="footer__copyright">HireLoki / Tampa</span>
+        <span class="footer__credit">A <a href="https://mamv.co" target="_blank" rel="noopener">MAMV Ventures</a> project</span>
+      </div>
+      <div class="footer__right">
+        <div class="footer__links">
+          <a href="#audit">What We Check</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#results">Results</a>
+          <a href="#faq">FAQ</a>
+          <a href="#contact">Free Audit</a>
+        </div>
+        <a href="mailto:loki@mamv.co" class="footer__contact">loki@mamv.co</a>
+      </div>
+    </div>
+  </div>
 </footer>
 
 <script>
-// Nav scroll
-const nav=document.getElementById('nav');
-window.addEventListener('scroll',()=>{nav.classList.toggle('scrolled',window.scrollY>50)});
+// Scroll reveals
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('is-visible'); });
+}, { threshold: 0.1, rootMargin: '0px 0px -60px 0px' });
+document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+// Header scroll
+const header = document.getElementById('header');
+let lastScroll = 0;
+window.addEventListener('scroll', () => {
+  const s = window.pageYOffset;
+  header.classList.toggle('is-scrolled', s > 100);
+  header.classList.toggle('is-hidden', s > lastScroll && s > 400);
+  if (s <= lastScroll) header.classList.remove('is-hidden');
+  lastScroll = s;
+}, { passive: true });
 
 // Mobile menu
-const toggle=document.getElementById('mobileToggle'),links=document.getElementById('navLinks');
-toggle.addEventListener('click',()=>{links.classList.toggle('open');toggle.textContent=links.classList.contains('open')?'✕':'☰'});
-links.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{links.classList.remove('open');toggle.textContent='☰'}));
+const menuToggle = document.getElementById('menuToggle');
+const headerNav = document.getElementById('headerNav');
+menuToggle.addEventListener('click', () => {
+  menuToggle.classList.toggle('is-active');
+  headerNav.classList.toggle('is-open');
+  document.body.classList.toggle('menu-open');
+});
+headerNav.querySelectorAll('a').forEach(link => {
+  link.addEventListener('click', () => {
+    menuToggle.classList.remove('is-active');
+    headerNav.classList.remove('is-open');
+    document.body.classList.remove('menu-open');
+  });
+});
+
+// Smooth scroll
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function(e) {
+    e.preventDefault();
+    const target = document.querySelector(this.getAttribute('href'));
+    if (target) {
+      const top = target.getBoundingClientRect().top + window.pageYOffset - 100;
+      window.scrollTo({ top, behavior: 'smooth' });
+    }
+  });
+});
 
 // Pricing toggle
-const pt=document.getElementById('pricingToggle'),ml=document.getElementById('monthlyLabel'),al=document.getElementById('annualLabel');
-let annual=false;
-pt.addEventListener('click',()=>{
-annual=!annual;pt.classList.toggle('on',annual);ml.classList.toggle('active',!annual);al.classList.toggle('active',annual);
-document.querySelectorAll('.price-val').forEach(el=>{
-const card=el.closest('.price');
-if(card&&card.dataset.monthly){el.textContent=annual?card.dataset.annual:card.dataset.monthly}
-});
-});
-
-// FAQ accordion
-document.querySelectorAll('.faq-item').forEach(item=>{
-item.querySelector('.faq-q').addEventListener('click',()=>{
-document.querySelectorAll('.faq-item').forEach(i=>{if(i!==item)i.classList.remove('open')});
-item.classList.toggle('open');
-});
+const toggleSwitch = document.getElementById('toggleSwitch');
+const labels = document.querySelectorAll('.pricing__toggle-label');
+let isAnnual = false;
+toggleSwitch.addEventListener('click', () => {
+  isAnnual = !isAnnual;
+  toggleSwitch.classList.toggle('is-active', isAnnual);
+  labels.forEach(l => l.classList.toggle('pricing__toggle-label--active',
+    (isAnnual && l.dataset.period === 'annual') || (!isAnnual && l.dataset.period === 'monthly')
+  ));
+  document.querySelectorAll('.pricing__tier-price[data-monthly]').forEach(el => {
+    el.querySelector('.price-value').textContent = isAnnual ? el.dataset.annual : el.dataset.monthly;
+  });
 });
 
-// Reveal on scroll
-const observer=new IntersectionObserver((entries)=>{
-entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');observer.unobserve(e.target)}});
-},{threshold:0.1,rootMargin:'0px 0px -40px 0px'});
-document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+// Animate score bars on scroll
+const barObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.querySelectorAll('.results__score-fill').forEach(bar => {
+        bar.style.width = bar.dataset.width + '%';
+      });
+    }
+  });
+}, { threshold: 0.3 });
+document.querySelectorAll('.results__card').forEach(card => {
+  card.querySelectorAll('.results__score-fill').forEach(bar => { bar.style.width = '0%'; });
+  barObserver.observe(card);
+});
 </script>
+
 </body>
 </html>
