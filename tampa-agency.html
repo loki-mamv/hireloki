@@ -225,7 +225,7 @@ ul, ol { list-style: none; }
 .results__score-row { display: flex; align-items: center; gap: var(--space-sm); }
 .results__score-label { font-size: 0.8125rem; color: rgba(250,249,246,0.6); width: 80px; flex-shrink: 0; }
 .results__score-bar { flex: 1; height: 6px; background: rgba(250,249,246,0.1); border-radius: 3px; overflow: hidden; position: relative; }
-.results__score-fill { height: 100%; border-radius: 3px; transition: width 1.2s var(--ease-out); }
+.results__score-fill { height: 100%; border-radius: 3px; transition: width 1.2s var(--ease-out); width: 0; }
 .results__score-fill--before { background: #8B4545; }
 .results__score-fill--after { background: var(--color-accent); }
 .results__score-value { font-size: 0.8125rem; font-weight: 500; width: 32px; text-align: right; }
@@ -491,11 +491,18 @@ ul, ol { list-style: none; }
       <h3 class="pricing__group-title reveal" style="font-family:var(--font-serif);font-size:clamp(1.25rem,3vw,1.75rem);font-weight:400;margin-top:var(--space-2xl);margin-bottom:var(--space-xs);">Monthly Maintenance</h3>
       <p class="reveal" style="font-size:0.9375rem;color:var(--color-text-secondary);margin-bottom:var(--space-lg);">Keep it running, keep it growing. Cancel anytime.</p>
 
+      <div class="pricing__toggle reveal" id="pricingToggle">
+        <span class="pricing__toggle-label pricing__toggle-label--active" data-period="monthly">Monthly</span>
+        <div class="toggle-switch" id="toggleSwitch"></div>
+        <span class="pricing__toggle-label" data-period="annual">Annual</span>
+        <span class="pricing__save">Save 20%</span>
+      </div>
+
       <div class="pricing__grid">
         <div class="pricing__tier reveal">
           <div class="pricing__tier-header">
             <span class="pricing__tier-name">Essentials</span>
-            <span class="pricing__tier-price">$99<span>/mo</span></span>
+            <span class="pricing__tier-price" data-monthly="$99" data-annual="$79"><span class="price-value">$99</span><span>/mo</span></span>
           </div>
           <p class="pricing__tier-desc">The basics, handled.</p>
           <ul class="pricing__tier-list">
@@ -513,7 +520,7 @@ ul, ol { list-style: none; }
           <span class="pricing__tier-badge">Popular</span>
           <div class="pricing__tier-header">
             <span class="pricing__tier-name">Growth</span>
-            <span class="pricing__tier-price">$199<span>/mo</span></span>
+            <span class="pricing__tier-price" data-monthly="$199" data-annual="$159"><span class="price-value">$199</span><span>/mo</span></span>
           </div>
           <p class="pricing__tier-desc">Essentials plus the marketing that moves the needle.</p>
           <ul class="pricing__tier-list">
@@ -530,7 +537,7 @@ ul, ol { list-style: none; }
         <div class="pricing__tier reveal reveal--delay-2">
           <div class="pricing__tier-header">
             <span class="pricing__tier-name">Full Service</span>
-            <span class="pricing__tier-price">$299<span>/mo</span></span>
+            <span class="pricing__tier-price" data-monthly="$299" data-annual="$239"><span class="price-value">$299</span><span>/mo</span></span>
           </div>
           <p class="pricing__tier-desc">The whole stack. We run your marketing.</p>
           <ul class="pricing__tier-list">
@@ -732,7 +739,7 @@ ul, ol { list-style: none; }
         </details>
         <details class="faq__item reveal">
           <summary class="faq__question"><span>What's included in the monthly plan?</span><span class="faq__icon"></span></summary>
-          <div class="faq__answer"><p>The Care Plan ($99/mo) covers hosting, security, updates, backups, uptime monitoring, and minor content edits. The Growth Plan ($199/mo) adds Google Business Profile management, local SEO, a monthly blog post, and analytics reporting.</p></div>
+          <div class="faq__answer"><p>Essentials ($99/mo) covers hosting, SSL, updates, minor edits, and uptime monitoring. Growth ($199/mo) adds local SEO, Google Business Profile management, and monthly content. Full Service ($299/mo) adds blog posts, analytics reports, and ad management. Pay annually and save 20%.</p></div>
         </details>
         <details class="faq__item reveal reveal--delay-1">
           <summary class="faq__question"><span>Can I cancel the monthly plan anytime?</span><span class="faq__icon"></span></summary>
