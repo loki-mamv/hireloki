@@ -3,24 +3,6 @@
    Base styles inherited from ../styles.css
    ═══════════════════════════════════════════════════════════════════════════ */
 
-/* Pricing section headers */
-.pricing__section {
-  text-align: center;
-  margin-bottom: var(--space-lg);
-}
-
-.pricing__section-title {
-  font-family: var(--font-serif);
-  font-size: clamp(1.25rem, 3vw, 1.75rem);
-  font-weight: 400;
-  margin-bottom: var(--space-xs);
-}
-
-.pricing__section-sub {
-  font-size: 0.9375rem;
-  color: var(--color-text-secondary);
-}
-
 /* Email line below CTA */
 .closing__email {
   margin-top: var(--space-md);
