@@ -786,46 +786,23 @@ ul, ol { list-style: none; }
         </div>
         <form class="contact__form reveal reveal--delay-2" action="https://formspree.io/f/PLACEHOLDER" method="POST">
           <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required placeholder="John Davis">
+          </div>
+          <div class="form-group">
             <label for="business">Business Name</label>
             <input type="text" id="business" name="business" required placeholder="e.g. Tampa Bay Plumbing">
           </div>
-          <div class="form-row">
-            <div class="form-group">
-              <label for="name">Owner Name</label>
-              <input type="text" id="name" name="name" required placeholder="John Davis">
-            </div>
-            <div class="form-group">
-              <label for="website">Website URL</label>
-              <input type="url" id="website" name="website" required placeholder="https://yoursite.com">
-            </div>
-          </div>
-          <div class="form-row">
-            <div class="form-group">
-              <label for="phone">Phone</label>
-              <input type="tel" id="phone" name="phone" placeholder="(813) 555-0100">
-            </div>
-            <div class="form-group">
-              <label for="email">Email</label>
-              <input type="email" id="email" name="email" required placeholder="john@company.com">
-            </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="john@company.com">
           </div>
           <div class="form-group">
-            <label for="industry">Industry</label>
-            <select id="industry" name="industry" required>
-              <option value="" disabled selected>Select your industry</option>
-              <option>Plumbing</option>
-              <option>Electrical</option>
-              <option>HVAC</option>
-              <option>Roofing</option>
-              <option>Landscaping</option>
-              <option>Cleaning</option>
-              <option>General Contractor</option>
-              <option>Pest Control</option>
-              <option>Painting</option>
-              <option>Other</option>
-            </select>
+            <label for="website">Website URL</label>
+            <input type="url" id="website" name="website" required placeholder="https://yoursite.com">
           </div>
-          <button type="submit" class="btn btn--primary" style="width:100%;justify-content:center;margin-top:var(--space-sm);">Request Free Audit</button>
+          <button type="submit" class="btn btn--primary" style="width:100%;justify-content:center;margin-top:var(--space-sm);">Get Your Free Audit</button>
+          <p style="font-size:0.8125rem;color:var(--color-text-tertiary);text-align:center;margin-top:var(--space-sm);">We'll email you a detailed report within 48 hours.</p>
         </form>
       </div>
     </div>
