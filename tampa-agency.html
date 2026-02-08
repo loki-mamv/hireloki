@@ -786,7 +786,7 @@ ul, ol { list-style: none; }
             </div>
           </div>
         </div>
-        <form class="contact__form reveal reveal--delay-2" action="https://formspree.io/f/PLACEHOLDER" method="POST">
+        <form class="contact__form reveal reveal--delay-2" id="audit-form">
           <div class="form-group">
             <label for="name">Your Name</label>
             <input type="text" id="name" name="name" required placeholder="John Davis">
@@ -803,9 +803,50 @@ ul, ol { list-style: none; }
             <label for="website">Website URL</label>
             <input type="url" id="website" name="website" required placeholder="https://yoursite.com">
           </div>
-          <button type="submit" class="btn btn--primary" style="width:100%;justify-content:center;margin-top:var(--space-sm);">Get Your Free Audit</button>
-          <p style="font-size:0.8125rem;color:var(--color-text-tertiary);text-align:center;margin-top:var(--space-sm);">We'll email you a detailed report within 48 hours.</p>
+          <button type="submit" id="audit-btn" class="btn btn--primary" style="width:100%;justify-content:center;margin-top:var(--space-sm);">Get Your Free Audit</button>
+          <p id="audit-status" style="font-size:0.8125rem;color:var(--color-text-tertiary);text-align:center;margin-top:var(--space-sm);">We'll email you a detailed report within 48 hours.</p>
         </form>
+        <script>
+        document.getElementById('audit-form').addEventListener('submit', async function(e) {
+          e.preventDefault();
+          const btn = document.getElementById('audit-btn');
+          const status = document.getElementById('audit-status');
+          const form = this;
+
+          btn.disabled = true;
+          btn.textContent = 'Submitting...';
+          status.style.color = 'var(--color-text-tertiary)';
+          status.textContent = 'Sending your request...';
+
+          try {
+            const res = await fetch('https://web-production-9755f.up.railway.app/api/audit', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({
+                name: form.name.value,
+                business: form.business.value,
+                email: form.email.value,
+                website: form.website.value
+              })
+            });
+
+            if (res.ok) {
+              btn.textContent = 'Audit Requested!';
+              status.style.color = 'var(--color-accent)';
+              status.textContent = 'Check your inbox — your audit report will arrive shortly.';
+              form.reset();
+            } else {
+              const data = await res.json().catch(() => ({}));
+              throw new Error(data.error || 'Something went wrong');
+            }
+          } catch (err) {
+            btn.disabled = false;
+            btn.textContent = 'Get Your Free Audit';
+            status.style.color = '#c4735b';
+            status.textContent = err.message || 'Failed to submit. Please try again.';
+          }
+        });
+        </script>
       </div>
     </div>
   </section>
