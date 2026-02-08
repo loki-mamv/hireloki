@@ -184,6 +184,8 @@ ul, ol { list-style: none; }
 
 .pricing__grid { display: grid; gap: 1px; background: var(--color-border); }
 @media (min-width: 768px) { .pricing__grid { grid-template-columns: repeat(3, 1fr); } }
+.pricing__grid--build { grid-template-columns: 1fr; }
+@media (min-width: 768px) { .pricing__grid--build { grid-template-columns: repeat(2, 1fr); } }
 .pricing__tier { background: var(--color-bg); padding: var(--space-lg); position: relative; }
 @media (min-width: 768px) { .pricing__tier { padding: var(--space-xl) var(--space-lg); } }
 .pricing__tier--featured { background: var(--color-bg-alt); }
@@ -447,7 +449,7 @@ ul, ol { list-style: none; }
       <h3 class="pricing__group-title reveal" style="font-family:var(--font-serif);font-size:clamp(1.25rem,3vw,1.75rem);font-weight:400;margin-bottom:var(--space-xs);">Website Build</h3>
       <p class="reveal" style="font-size:0.9375rem;color:var(--color-text-secondary);margin-bottom:var(--space-lg);">A professional site that actually brings in customers. Live in 2-3 weeks.</p>
 
-      <div class="pricing__grid" style="grid-template-columns:repeat(2,1fr);">
+      <div class="pricing__grid pricing__grid--build">
         <div class="pricing__tier reveal">
           <div class="pricing__tier-header">
             <span class="pricing__tier-name">Standard</span>
