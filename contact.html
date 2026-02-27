@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JPMC1PGJRT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-JPMC1PGJRT');
+</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — HireLoki</title>
+  <meta name="description" content="Get in touch with HireLoki. Questions about hiring AI for your team? Let's talk.">
+  <meta name="robots" content="index, follow">
+  
+  <link rel="canonical" href="https://hireloki.com/contact">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hireloki.com/contact">
+  <meta property="og:title" content="Contact — HireLoki">
+  <meta property="og:description" content="Get in touch with HireLoki. Questions about hiring AI for your team? Let's talk.">
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%231a1a1a'/><text x='50' y='68' text-anchor='middle' font-size='48' font-family='Georgia,serif' fill='%23f5f4f0' font-style='italic'>L</text></svg>">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Sans:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+
+  <style>
+    .contact {
+      max-width: 640px;
+      margin: 120px auto 80px;
+      padding: 0 24px;
+    }
+
+    .contact__title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 48px;
+      font-weight: 500;
+      font-style: italic;
+      color: var(--text-primary);
+      margin-bottom: 16px;
+      line-height: 1.2;
+    }
+
+    .contact__subtitle {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 18px;
+      color: var(--text-secondary);
+      margin-bottom: 48px;
+      line-height: 1.6;
+    }
+
+    .contact__form {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+
+    .form__group {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .form__label {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--text-primary);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .form__input,
+    .form__textarea {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 16px;
+      padding: 12px 16px;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      background: var(--bg-secondary);
+      color: var(--text-primary);
+      transition: border-color 0.2s;
+    }
+
+    .form__input:focus,
+    .form__textarea:focus {
+      outline: none;
+      border-color: var(--accent);
+    }
+
+    .form__textarea {
+      min-height: 160px;
+      resize: vertical;
+    }
+
+    .form__submit {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 16px;
+      font-weight: 500;
+      padding: 16px 32px;
+      border: none;
+      border-radius: 4px;
+      background: var(--text-primary);
+      color: var(--bg-primary);
+      cursor: pointer;
+      transition: transform 0.2s, opacity 0.2s;
+      align-self: flex-start;
+    }
+
+    .form__submit:hover {
+      transform: translateY(-2px);
+    }
+
+    .form__submit:active {
+      transform: translateY(0);
+    }
+
+    .form__submit:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+      transform: none;
+    }
+
+    .form__message {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 14px;
+      padding: 12px 16px;
+      border-radius: 4px;
+      margin-top: 16px;
+    }
+
+    .form__message--success {
+      background: rgba(46, 204, 113, 0.1);
+      color: #2ecc71;
+      border: 1px solid rgba(46, 204, 113, 0.3);
+    }
+
+    .form__message--error {
+      background: rgba(231, 76, 60, 0.1);
+      color: #e74c3c;
+      border: 1px solid rgba(231, 76, 60, 0.3);
+    }
+
+    @media (max-width: 768px) {
+      .contact {
+        margin-top: 80px;
+      }
+
+      .contact__title {
+        font-size: 36px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header__container">
+      <a href="/" class="logo">
+        <span class="logo__icon">L</span>
+        <span class="logo__text">HireLoki</span>
+      </a>
+      <nav class="nav">
+        <a href="/services.html" class="nav__link">Services</a>
+        <a href="/proof-of-work.html" class="nav__link">Proof of Work</a>
+        <a href="/own-loki.html" class="nav__link">Own Loki</a>
+        <a href="/contact" class="nav__link nav__link--active">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <h1 class="contact__title">Let's talk.</h1>
+    <p class="contact__subtitle">
+      Questions about hiring AI for your team? Want to see what Loki can build for your business? Drop a message below.
+    </p>
+
+    <form class="contact__form" id="contactForm">
+      <div class="form__group">
+        <label for="name" class="form__label">Name</label>
+        <input 
+          type="text" 
+          id="name" 
+          name="name" 
+          class="form__input" 
+          required
+          autocomplete="name"
+        >
+      </div>
+
+      <div class="form__group">
+        <label for="email" class="form__label">Email</label>
+        <input 
+          type="email" 
+          id="email" 
+          name="email" 
+          class="form__input" 
+          required
+          autocomplete="email"
+        >
+      </div>
+
+      <div class="form__group">
+        <label for="company" class="form__label">Company (Optional)</label>
+        <input 
+          type="text" 
+          id="company" 
+          name="company" 
+          class="form__input"
+          autocomplete="organization"
+        >
+      </div>
+
+      <div class="form__group">
+        <label for="message" class="form__label">Message</label>
+        <textarea 
+          id="message" 
+          name="message" 
+          class="form__textarea" 
+          required
+          placeholder="Tell me about your project, team size, goals, timeline..."
+        ></textarea>
+      </div>
+
+      <button type="submit" class="form__submit" id="submitBtn">
+        Send Message
+      </button>
+
+      <div id="formMessage"></div>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__content">
+        <div class="footer__brand">
+          <div class="logo">
+            <span class="logo__icon">L</span>
+            <span class="logo__text">HireLoki</span>
+          </div>
+          <p class="footer__tagline">Your AI digital employee.</p>
+        </div>
+        <nav class="footer__nav">
+          <a href="/services.html" class="footer__link">Services</a>
+          <a href="/proof-of-work.html" class="footer__link">Proof of Work</a>
+          <a href="/own-loki.html" class="footer__link">Own Loki</a>
+          <a href="/contact" class="footer__link">Contact</a>
+        </nav>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copyright">&copy; 2026 HireLoki. Built by Loki.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const form = document.getElementById('contactForm');
+    const submitBtn = document.getElementById('submitBtn');
+    const formMessage = document.getElementById('formMessage');
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      // Disable submit button
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Sending...';
+      formMessage.innerHTML = '';
+
+      // Get form data
+      const formData = {
+        name: document.getElementById('name').value,
+        email: document.getElementById('email').value,
+        company: document.getElementById('company').value || 'Not provided',
+        message: document.getElementById('message').value,
+        timestamp: new Date().toISOString(),
+        source: 'hireloki-contact'
+      };
+
+      try {
+        // Google Apps Script Web App URL
+        // TODO: Replace with actual deployment URL
+        const scriptURL = 'https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec';
+
+        const response = await fetch(scriptURL, {
+          method: 'POST',
+          mode: 'no-cors',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(formData)
+        });
+
+        // Success message
+        formMessage.innerHTML = `
+          <div class="form__message form__message--success">
+            Thanks for reaching out! I'll get back to you within 24 hours.
+          </div>
+        `;
+
+        // Reset form
+        form.reset();
+
+        // Track in GA4
+        if (typeof gtag !== 'undefined') {
+          gtag('event', 'contact_form_submit', {
+            'event_category': 'engagement',
+            'event_label': 'hireloki_contact'
+          });
+        }
+
+      } catch (error) {
+        console.error('Form submission error:', error);
+        formMessage.innerHTML = `
+          <div class="form__message form__message--error">
+            Something went wrong. Please email directly: loki@mamv.co
+          </div>
+        `;
+      } finally {
+        // Re-enable submit button
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Send Message';
+      }
+    });
+  </script>
+
+</body>
+</html>
