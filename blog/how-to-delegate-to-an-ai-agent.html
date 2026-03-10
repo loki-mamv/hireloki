@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How to Delegate to an AI Agent (Without Losing Control) | HireLoki</title>
+  <meta name="description" content="Learn how to delegate to an AI agent effectively. A practical framework for solopreneurs to hand off marketing, research, and operations while staying in control.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://hireloki.com/blog/how-to-delegate-to-an-ai-agent.html">
+
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://hireloki.com/blog/how-to-delegate-to-an-ai-agent.html">
+  <meta property="og:title" content="How to Delegate to an AI Agent (Without Losing Control)">
+  <meta property="og:description" content="A practical framework for delegating to AI agents — what to hand off, what to keep, and how to maintain quality.">
+  <meta property="og:image" content="https://hireloki.com/og-image.png">
+  <meta property="og:site_name" content="HireLoki">
+  <meta property="article:published_time" content="2026-02-04T08:00:00Z">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="How to Delegate to an AI Agent (Without Losing Control)">
+  <meta name="twitter:description" content="A practical framework for delegating to AI agents — what to hand off and how to maintain quality.">
+  <meta name="twitter:image" content="https://hireloki.com/og-image.png">
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%231a1a1a'/><text x='50' y='68' text-anchor='middle' font-size='48' font-family='Georgia,serif' fill='%23f5f4f0' font-style='italic'>L</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "How to Delegate to an AI Agent (Without Losing Control)",
+    "description": "Learn how to delegate to an AI agent effectively. A practical framework for solopreneurs to hand off marketing, research, and operations while staying in control.",
+    "image": "https://hireloki.com/og-image.png",
+    "datePublished": "2026-02-04T08:00:00Z",
+    "dateModified": "2026-02-04T08:00:00Z",
+    "author": { "@type": "Organization", "name": "HireLoki", "url": "https://hireloki.com" },
+    "publisher": { "@type": "Organization", "name": "HireLoki", "url": "https://hireloki.com", "logo": { "@type": "ImageObject", "url": "https://hireloki.com/og-image.png" } },
+    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://hireloki.com/blog/how-to-delegate-to-an-ai-agent.html" }
+  }
+  </script>
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root { --color-bg: #FAF9F6; --color-bg-alt: #F4F3EF; --color-text: #1a1a1a; --color-text-secondary: #5a5a5a; --color-text-tertiary: #8a8a8a; --color-accent: #6B7C6B; --color-accent-hover: #5A6B5A; --color-border: #E5E4E0; --font-serif: 'Cormorant Garamond', Georgia, 'Times New Roman', serif; --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; }
+    html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
+    body { font-family: var(--font-sans); font-size: 1rem; line-height: 1.7; color: var(--color-text); background: var(--color-bg); }
+    .header { position: fixed; top: 0; left: 0; right: 0; z-index: 100; padding: 20px 40px; background: rgba(250,249,246,0.95); backdrop-filter: blur(10px); border-bottom: 1px solid var(--color-border); }
+    .header__inner { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
+    .header__logo { text-decoration: none; display: flex; align-items: center; gap: 12px; }
+    .header__logo-mark { width: 32px; height: 32px; background: var(--color-text); color: var(--color-bg); display: flex; align-items: center; justify-content: center; font-family: var(--font-serif); font-style: italic; font-size: 18px; border-radius: 4px; }
+    .header__logo-text { font-family: var(--font-sans); font-weight: 500; font-size: 15px; color: var(--color-text); }
+    .header__nav { display: flex; gap: 32px; align-items: center; }
+    .header__nav a { text-decoration: none; color: var(--color-text-secondary); font-size: 14px; transition: color 0.2s; }
+    .header__nav a:hover { color: var(--color-text); }
+    .header__nav-cta { background: var(--color-text); color: var(--color-bg) !important; padding: 8px 20px; border-radius: 6px; font-weight: 500 !important; }
+    .article { max-width: 720px; margin: 0 auto; padding: 140px 24px 80px; }
+    .article__breadcrumb { font-size: 13px; color: var(--color-text-tertiary); margin-bottom: 32px; }
+    .article__breadcrumb a { color: var(--color-accent); text-decoration: none; }
+    .article__category { display: inline-block; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--color-accent); margin-bottom: 16px; }
+    .article__title { font-family: var(--font-serif); font-size: clamp(2rem, 5vw, 3rem); font-weight: 500; line-height: 1.15; color: var(--color-text); margin-bottom: 20px; }
+    .article__meta { font-size: 14px; color: var(--color-text-tertiary); margin-bottom: 48px; padding-bottom: 32px; border-bottom: 1px solid var(--color-border); }
+    .article__content h2 { font-family: var(--font-serif); font-size: 1.75rem; font-weight: 500; margin: 48px 0 16px; line-height: 1.25; }
+    .article__content h3 { font-family: var(--font-sans); font-size: 1.15rem; font-weight: 600; margin: 36px 0 12px; }
+    .article__content p { margin-bottom: 20px; color: var(--color-text-secondary); line-height: 1.8; font-size: 16.5px; }
+    .article__content ul, .article__content ol { margin: 16px 0 24px 24px; color: var(--color-text-secondary); }
+    .article__content li { margin-bottom: 8px; line-height: 1.7; font-size: 16.5px; }
+    .article__content blockquote { border-left: 3px solid var(--color-accent); padding: 16px 24px; margin: 32px 0; background: var(--color-bg-alt); border-radius: 0 8px 8px 0; font-style: italic; color: var(--color-text-secondary); }
+    .article__content strong { color: var(--color-text); font-weight: 600; }
+    .article__content a { color: var(--color-accent); text-decoration: underline; text-underline-offset: 2px; }
+    .cta-box { background: var(--color-bg-alt); border: 1px solid var(--color-border); border-radius: 12px; padding: 40px; margin: 48px 0; text-align: center; }
+    .cta-box__title { font-family: var(--font-serif); font-size: 1.5rem; font-weight: 500; margin-bottom: 12px; }
+    .cta-box__text { font-size: 15px; color: var(--color-text-secondary); margin-bottom: 24px; max-width: 480px; margin-left: auto; margin-right: auto; }
+    .cta-box__btn { display: inline-block; background: var(--color-text); color: var(--color-bg); padding: 12px 32px; border-radius: 8px; text-decoration: none; font-weight: 500; font-size: 15px; }
+    .cta-box__btn:hover { background: #333; }
+    .footer { border-top: 1px solid var(--color-border); padding: 40px 24px; margin-top: 80px; }
+    .footer__inner { max-width: 720px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; font-size: 14px; color: var(--color-text-tertiary); }
+    .footer a { color: var(--color-text-secondary); text-decoration: none; }
+    @media (max-width: 640px) { .header { padding: 16px 20px; } .header__nav { display: none; } .article { padding: 100px 20px 60px; } .footer__inner { flex-direction: column; gap: 8px; } }
+  </style>
+</head>
+<body>
+
+  <header class="header">
+    <div class="header__inner">
+      <a href="https://hireloki.com" class="header__logo">
+        <span class="header__logo-mark">L</span>
+        <span class="header__logo-text">HireLoki</span>
+      </a>
+      <nav class="header__nav">
+        <a href="https://hireloki.com/#work">Work</a>
+        <a href="https://hireloki.com/services.html">Services</a>
+        <a href="https://hireloki.com/blog/">Blog</a>
+        <a href="mailto:loki@mamv.co" class="header__nav-cta">Get in touch</a>
+      </nav>
+    </div>
+  </header>
+
+  <article class="article">
+    <nav class="article__breadcrumb">
+      <a href="https://hireloki.com">HireLoki</a> → <a href="https://hireloki.com/blog/">Blog</a> → How to Delegate to an AI Agent
+    </nav>
+
+    <span class="article__category">How-To</span>
+    <h1 class="article__title">How to Delegate to an AI Agent (Without Losing Control)</h1>
+    <div class="article__meta">February 4, 2026 · 9 min read</div>
+
+    <div class="article__content">
+      <p>You know you need to <strong>delegate to an AI agent</strong>. You've read the case studies. You've seen the math. But every time you think about handing off real work to an autonomous system, something tightens in your chest. Will it misrepresent my brand? Will it send something embarrassing to a client? Will I spend more time fixing its mistakes than doing the work myself?</p>
+
+      <p>These aren't irrational fears. They're the same concerns every founder has when delegating to anyone — human or AI. The good news: there's a framework for this, and it works whether you're delegating to a junior employee, a freelancer, or an AI agent. It just moves faster with AI.</p>
+
+      <h2>The Delegation Ladder: A Framework That Actually Works</h2>
+
+      <p>Not all delegation is equal. Handing over your entire marketing operation on day one is as reckless with AI as it would be with a brand-new hire. The key is progressive autonomy — expanding the agent's authority as trust builds.</p>
+
+      <p>Here are the five levels, from zero autonomy to full autopilot:</p>
+
+      <h3>Level 1: Research and Recommend</h3>
+      <p>The AI agent gathers information and presents options. You make every decision and do every action.</p>
+      <p><strong>Example:</strong> "Research the top 20 keywords for our industry and recommend which 5 to target first." The agent does the research, presents findings, and you decide what to do with them.</p>
+      <p><strong>Your time investment:</strong> High (you still do the work), but research time drops by 80%.</p>
+
+      <h3>Level 2: Draft and Review</h3>
+      <p>The agent creates work product that you review before anything happens. Nothing goes live without your explicit approval.</p>
+      <p><strong>Example:</strong> "Draft 5 blog posts targeting these keywords." The agent writes them, you review and edit, you publish.</p>
+      <p><strong>Your time investment:</strong> Medium. Reviewing is much faster than creating from scratch.</p>
+
+      <h3>Level 3: Do and Report</h3>
+      <p>The agent executes within defined parameters and reports what it did. You review after the fact rather than before.</p>
+      <p><strong>Example:</strong> "Publish one blog post per day following the content calendar we approved. Send me a daily summary of what went live." The agent executes autonomously within the approved plan.</p>
+      <p><strong>Your time investment:</strong> Low. Five-minute daily review of what was done.</p>
+
+      <h3>Level 4: Do and Flag Exceptions</h3>
+      <p>The agent handles the routine autonomously and only alerts you when something falls outside normal parameters.</p>
+      <p><strong>Example:</strong> "Manage email responses. Handle routine inquiries automatically. Flag anything from VIP clients or anything that requires a judgment call." You only engage when needed.</p>
+      <p><strong>Your time investment:</strong> Minimal. You handle the exceptions, which are rare.</p>
+
+      <h3>Level 5: Full Autonomy</h3>
+      <p>The agent operates independently within its domain, making decisions and taking action without your involvement. You review performance metrics periodically.</p>
+      <p><strong>Example:</strong> "Manage our entire social media presence. Post daily, engage with comments, adjust content mix based on performance, and send weekly analytics." You check in weekly, not daily.</p>
+      <p><strong>Your time investment:</strong> 15-30 minutes per week for performance review.</p>
+
+      <h2>How to Move Up the Ladder</h2>
+
+      <p>The progression from Level 1 to Level 5 should take weeks, not months. Here's the practical process:</p>
+
+      <ol>
+        <li><strong>Start every new task type at Level 1 or 2.</strong> Even if the agent handles email perfectly, start it at Level 2 for social media. Each domain needs its own trust-building period.</li>
+        <li><strong>Track error rate obsessively.</strong> During Levels 1 and 2, note every correction you make. If you're editing less than 10% of the agent's output after two weeks, it's ready for Level 3.</li>
+        <li><strong>Define "good enough" clearly.</strong> Perfectionism kills delegation. A blog post that's 90% as good as what you'd write, published consistently, beats the perfect post you never have time to create.</li>
+        <li><strong>Promote in batches.</strong> Move all routine tasks (email confirmations, social replies, scheduling) to Level 3 at once. Keep high-stakes tasks (client communications, pricing changes) at Level 2 longer.</li>
+        <li><strong>Build a revert plan.</strong> If something goes wrong at Level 3 or above, you need to be able to drop back to Level 2 instantly. Make sure you always have that option.</li>
+      </ol>
+
+      <h2>What to Delegate First (The Low-Risk, High-Impact Quadrant)</h2>
+
+      <p>Not all tasks are equal candidates for AI delegation. The best starting points share two characteristics: <strong>low risk if done imperfectly</strong> and <strong>high time savings when delegated</strong>.</p>
+
+      <p><strong>Delegate immediately (low risk, high time savings):</strong></p>
+      <ul>
+        <li>Blog post drafting</li>
+        <li>Social media content creation</li>
+        <li>Meeting scheduling and calendar management</li>
+        <li>Research and data compilation</li>
+        <li>Email triage and prioritization</li>
+        <li>Competitor monitoring</li>
+      </ul>
+
+      <p><strong>Delegate carefully (higher risk, high time savings):</strong></p>
+      <ul>
+        <li>Client email responses (start at Level 2)</li>
+        <li>Proposal drafting</li>
+        <li>Financial reporting</li>
+        <li>Social media posting (brand reputation risk)</li>
+      </ul>
+
+      <p><strong>Keep for yourself (for now):</strong></p>
+      <ul>
+        <li>Key client relationship management</li>
+        <li>Strategic business decisions</li>
+        <li>Crisis communications</li>
+        <li>Pricing and contract negotiations</li>
+      </ul>
+
+      <h2>The Briefing Framework: How to Tell an AI Agent What to Do</h2>
+
+      <p>The quality of AI agent output is directly proportional to the quality of your briefing. Here's a framework that works consistently:</p>
+
+      <ol>
+        <li><strong>Context:</strong> What's the situation? Who's the audience? What's already been done?</li>
+        <li><strong>Objective:</strong> What specific outcome are you looking for? Not "write a blog post" but "write a blog post targeting solopreneurs who are considering hiring their first employee, positioning AI agents as a faster, cheaper alternative."</li>
+        <li><strong>Constraints:</strong> What should it avoid? Tone restrictions? Topics that are off-limits? Length requirements?</li>
+        <li><strong>Examples:</strong> Show the agent what good output looks like. "Here are three blog posts I like — match this tone and depth."</li>
+        <li><strong>Success criteria:</strong> How will you know if the output is good? Define this before you see the work so you're judging against a standard, not a feeling.</li>
+      </ol>
+
+      <p>This takes 5-10 minutes per task type and only needs to be done once. After that, the agent applies these parameters to everything in that category.</p>
+
+      <h2>The Control Myth: Why "Losing Control" Is Usually Fear, Not Risk</h2>
+
+      <p>Here's something most delegation advice won't tell you: the fear of losing control is almost always disproportionate to the actual risk. The worst case for most AI-delegated tasks is a blog post that needs editing or a social media response that's slightly off-tone. These are easily fixable. The worst case for not delegating is you burn out, drop balls, and your business stalls because you're doing $20/hour work when you should be doing $200/hour work.</p>
+
+      <blockquote>The real risk isn't that the AI agent makes a mistake. It's that you never delegate, stay stuck as the bottleneck, and never grow beyond what one person can manually handle.</blockquote>
+
+      <p>Put guardrails in place. Use the delegation ladder. Start at Level 2 and work up. But start. The founders who are scaling in 2026 aren't the ones who do everything themselves — they're the ones who learned to delegate to AI agents effectively.</p>
+
+      <h2>Common Delegation Mistakes to Avoid</h2>
+
+      <ul>
+        <li><strong>Delegating without clear standards:</strong> If you can't describe what "good" looks like, the agent can't produce it. Define quality criteria before delegating.</li>
+        <li><strong>Micromanaging after delegation:</strong> If you're editing every word of every blog post, you haven't actually delegated. You've just added a step. Trust the system you built.</li>
+        <li><strong>Delegating outcomes instead of tasks:</strong> "Grow my business" is an outcome. "Write and publish three blog posts per week targeting these keywords" is a task. Delegate tasks.</li>
+        <li><strong>Skipping the review phase:</strong> Going from Level 1 straight to Level 5 is asking for trouble. Earn each level transition with data, not hope.</li>
+        <li><strong>Never increasing autonomy:</strong> Some founders get stuck at Level 2 forever because every output is "almost but not quite right." If you're consistently editing less than 10%, promote to Level 3.</li>
+      </ul>
+
+      <div class="cta-box">
+        <div class="cta-box__title">Ready to Start Delegating?</div>
+        <p class="cta-box__text">Loki is an AI agent built for delegation. Marketing, research, email, content — with human oversight built into the process.</p>
+        <a href="https://hireloki.com/services.html" class="cta-box__btn">See what Loki handles →</a>
+      </div>
+
+      <h2>The 30-Day Delegation Challenge</h2>
+
+      <p>If you're convinced but unsure where to start, try this: pick one task you do every week that takes at least 2 hours. Delegate it to an AI agent at Level 2 (draft and review). Do this for 30 days. At the end of the month, you'll have reclaimed 6-8 hours of your time and have a clear sense of whether the quality meets your standards.</p>
+
+      <p>That's usually all it takes. Once you experience the freedom of having an AI agent handle operational work at a quality level you're comfortable with, the only question becomes: what do I delegate next?</p>
+    </div>
+  </article>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <span>© 2026 <a href="https://hireloki.com">HireLoki</a>. A <a href="https://mamv.co">MAMV Ventures</a> project.</span>
+      <a href="mailto:loki@mamv.co">loki@mamv.co</a>
+    </div>
+  </footer>
+
+</body>
+</html>
